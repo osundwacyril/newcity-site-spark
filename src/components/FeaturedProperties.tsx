@@ -1,36 +1,36 @@
 import { Link } from "react-router-dom";
 import { PropertyCard } from "./PropertyCard";
-import property1 from "@/assets/property-1.jpg";
-import property2 from "@/assets/property-2.jpg";
-import property3 from "@/assets/property-3.jpg";
+import luckyGardens from "@/assets/lucky-gardens.jpg";
+import kcaPhase2 from "@/assets/kca-phase2.jpg";
+import fahariGardens from "@/assets/fahari-gardens.jpg";
 
 const properties = [
   {
     id: 1,
-    name: "Riverside Plots",
-    location: "Kiambu, Kenya",
-    price: "Ksh 850,000",
-    image: property1,
-    size: "50x100 ft",
-    status: "Available",
-  },
-  {
-    id: 2,
-    name: "Garden Estate",
-    location: "Machakos, Kenya",
-    price: "Ksh 1,200,000",
-    image: property2,
-    size: "1/4 Acre",
+    name: "Lucky Gardens",
+    location: "Lucky Base Shopping Centre, KAG",
+    price: "Ksh 1,300,000",
+    image: luckyGardens,
+    size: "Commercial Plot",
     status: "Hot Deal",
   },
   {
-    id: 3,
-    name: "Hilltop Haven",
-    location: "Nakuru, Kenya",
+    id: 2,
+    name: "KCA Phase 2",
+    location: "KCA University, Kitengela",
     price: "Ksh 650,000",
-    image: property3,
-    size: "40x80 ft",
+    image: kcaPhase2,
+    size: "Ready Title",
     status: "Available",
+  },
+  {
+    id: 3,
+    name: "Fahari Gardens Phase 2",
+    location: "Kampala University, KAG Kitengela",
+    price: "Ksh 1,100,000",
+    image: fahariGardens,
+    size: "1.5KM Off Tarmac",
+    status: "Premium",
   },
 ];
 

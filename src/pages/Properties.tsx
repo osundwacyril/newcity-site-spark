@@ -1,63 +1,66 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { PropertyCard } from "@/components/PropertyCard";
-import property1 from "@/assets/property-1.jpg";
-import property2 from "@/assets/property-2.jpg";
-import property3 from "@/assets/property-3.jpg";
+import luckyGardens from "@/assets/lucky-gardens.jpg";
+import kcaPhase2Commercial from "@/assets/kca-phase2-commercial.jpg";
+import fahariGardens from "@/assets/fahari-gardens.jpg";
+import kcaPhase2 from "@/assets/kca-phase2.jpg";
+import konzaView from "@/assets/konza-view.jpg";
+import eserianPlains from "@/assets/eserian-plains.jpg";
 
 const properties = [
   {
     id: 1,
-    name: "Riverside Plots",
-    location: "Kiambu, Kenya",
-    price: "Ksh 850,000",
-    image: property1,
-    size: "50x100 ft",
-    status: "Available",
-  },
-  {
-    id: 2,
-    name: "Garden Estate",
-    location: "Machakos, Kenya",
-    price: "Ksh 1,200,000",
-    image: property2,
-    size: "1/4 Acre",
+    name: "Lucky Gardens",
+    location: "Lucky Base Shopping Centre, KAG",
+    price: "Ksh 1,300,000",
+    image: luckyGardens,
+    size: "Commercial Plot",
     status: "Hot Deal",
   },
   {
-    id: 3,
-    name: "Hilltop Haven",
-    location: "Nakuru, Kenya",
+    id: 2,
+    name: "KCA Phase 2",
+    location: "KCA University, Kitengela",
     price: "Ksh 650,000",
-    image: property3,
-    size: "40x80 ft",
+    image: kcaPhase2,
+    size: "Ready Title",
     status: "Available",
   },
   {
+    id: 3,
+    name: "Fahari Gardens Phase 2",
+    location: "Kampala University, KAG Kitengela",
+    price: "Ksh 1,100,000",
+    image: fahariGardens,
+    size: "1.5KM Off Tarmac",
+    status: "Premium",
+  },
+  {
     id: 4,
-    name: "Valley View",
-    location: "Kajiado, Kenya",
-    price: "Ksh 950,000",
-    image: property1,
-    size: "50x100 ft",
+    name: "KCA Phase 2 Commercial",
+    location: "KCA Kitengela",
+    price: "Ksh 650,000",
+    image: kcaPhase2Commercial,
+    size: "Commercial Plot",
     status: "Available",
   },
   {
     id: 5,
-    name: "Sunset Acres",
-    location: "Nairobi, Kenya",
-    price: "Ksh 1,500,000",
-    image: property2,
-    size: "1/2 Acre",
-    status: "Premium",
+    name: "Konza View Phase 2",
+    location: "Konza, Kenya",
+    price: "Ksh 500,000",
+    image: konzaView,
+    size: "Ready Title",
+    status: "Hot Deal",
   },
   {
     id: 6,
-    name: "Green Meadows",
-    location: "Thika, Kenya",
-    price: "Ksh 720,000",
-    image: property3,
-    size: "40x80 ft",
+    name: "Eserian Plains",
+    location: "Kajiado, Kenya",
+    price: "Ksh 350,000",
+    image: eserianPlains,
+    size: "Ready Title Deeds",
     status: "Available",
   },
 ];
