@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import logo from "@/assets/newcity-logo.jpg";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,14 +10,12 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">
-                N
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-xl text-foreground leading-none">New City Lands</span>
-                <span className="text-xs text-muted-foreground">Your Future Home</span>
-              </div>
+            <div className="mb-4">
+              <img 
+                src={logo} 
+                alt="New City Real Estate Logo" 
+                className="h-16 w-auto object-contain"
+              />
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               Offering affordable, genuine plots for sale in Kenya with ready title deeds. 
