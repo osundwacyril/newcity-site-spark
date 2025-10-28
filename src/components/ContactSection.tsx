@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, Send, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Send, Facebook, Instagram, Twitter, Linkedin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -55,14 +55,26 @@ export const ContactSection = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <a
-                      href="tel:+254700000000"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      +254 700 000 000
-                    </a>
+                    <div className="flex items-center gap-2">
+                      <a
+                        href="tel:+254742498498"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        +254 7 42498498
+                      </a>
+                      <a
+                        href="https://wa.me/254742498498"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 px-3 py-1 bg-[#25D366] text-white rounded-full text-sm hover:bg-[#128C7E] transition-colors"
+                        aria-label="Chat on WhatsApp"
+                      >
+                        <MessageCircle className="h-4 w-4" />
+                        WhatsApp
+                      </a>
+                    </div>
                   </div>
                 </div>
 
