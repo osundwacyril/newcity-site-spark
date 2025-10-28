@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -105,6 +105,48 @@ export const ContactSection = () => {
                 <p className="text-muted-foreground text-sm">
                   Sunday: Closed
                 </p>
+              </div>
+
+              <div className="bg-card p-6 rounded-xl border border-border shadow-[var(--shadow-card)]">
+                <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
+                <div className="flex gap-3">
+                  <a
+                    href="https://facebook.com/newcitylands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                    aria-label="Facebook"
+                  >
+                    <Facebook className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="https://instagram.com/newcitylands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <Instagram className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="https://twitter.com/newcitylands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                    aria-label="Twitter"
+                  >
+                    <Twitter className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="https://linkedin.com/company/newcitylands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </a>
+                </div>
               </div>
             </div>
 
