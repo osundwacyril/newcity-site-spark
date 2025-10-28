@@ -1,34 +1,34 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroProperty1 from "@/assets/hero-property-1.jpg";
-import heroProperty2 from "@/assets/hero-property-2.jpg";
-import heroProperty3 from "@/assets/hero-property-3.jpg";
+import luckyGardens from "@/assets/lucky-gardens.jpg";
+import fahariGardens from "@/assets/fahari-gardens.jpg";
+import konzaView from "@/assets/konza-view.jpg";
 
 const properties = [
   {
     id: 1,
-    name: "Green Valley Estate",
-    location: "Kiambu County",
-    price: "Ksh 850,000",
-    image: heroProperty1,
-    description: "Prime residential plots with ready title deeds",
+    name: "Lucky Gardens",
+    location: "Lucky Base Shopping Centre, KAG",
+    price: "Ksh 1,300,000",
+    image: luckyGardens,
+    description: "Commercial plots with ready title deeds and excellent infrastructure",
   },
   {
     id: 2,
-    name: "Sunset Gardens",
-    location: "Machakos",
-    price: "Ksh 1,200,000",
-    image: heroProperty2,
-    description: "Gated community with modern amenities",
+    name: "Fahari Gardens Phase 2",
+    location: "Kampala University, KAG Kitengela",
+    price: "Ksh 1,100,000",
+    image: fahariGardens,
+    description: "Prime land plots 1.5KM off tarmac with balance payment in 12 months",
   },
   {
     id: 3,
-    name: "Heritage Park",
-    location: "Nakuru",
-    price: "Ksh 650,000",
-    image: heroProperty3,
-    description: "Affordable plots in a planned neighborhood",
+    name: "Konza View Phase 2",
+    location: "Konza, Kenya",
+    price: "Ksh 500,000",
+    image: konzaView,
+    description: "Affordable plots with ready title deeds - Your power to build starts with land",
   },
 ];
 
