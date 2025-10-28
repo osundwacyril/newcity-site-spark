@@ -1,8 +1,10 @@
 import { MapPin, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 interface PropertyCardProps {
+  id: string;
   name: string;
   location: string;
   price: string;
@@ -12,6 +14,7 @@ interface PropertyCardProps {
 }
 
 export const PropertyCard = ({
+  id,
   name,
   location,
   price,
@@ -62,10 +65,10 @@ export const PropertyCard = ({
 
       <CardFooter className="p-5 pt-0 gap-2">
         <Button variant="hero" className="flex-1" asChild>
-          <a href="#contact">View Details</a>
+          <Link to={`/properties/${id}`}>View Details</Link>
         </Button>
-        <Button variant="outline" className="flex-1">
-          Schedule Visit
+        <Button variant="outline" className="flex-1" asChild>
+          <a href="#contact">Schedule Visit</a>
         </Button>
       </CardFooter>
     </Card>

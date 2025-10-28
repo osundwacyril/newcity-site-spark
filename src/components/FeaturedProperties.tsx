@@ -6,7 +6,7 @@ import fahariGardens from "@/assets/fahari-gardens.jpg";
 
 const properties = [
   {
-    id: 1,
+    id: "1",
     name: "Lucky Gardens",
     location: "Lucky Base Shopping Centre, KAG",
     price: "Ksh 1,300,000",
@@ -15,7 +15,7 @@ const properties = [
     status: "Hot Deal",
   },
   {
-    id: 2,
+    id: "2",
     name: "KCA Phase 2",
     location: "KCA University, Kitengela",
     price: "Ksh 650,000",
@@ -24,7 +24,7 @@ const properties = [
     status: "Available",
   },
   {
-    id: 3,
+    id: "3",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University, KAG Kitengela",
     price: "Ksh 1,100,000",

@@ -1,6 +1,12 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { PropertyCard } from "@/components/PropertyCard";
+import { useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
+import { Search, X } from "lucide-react";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import kcaPhase2Commercial from "@/assets/kca-phase2-commercial.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
@@ -10,7 +16,7 @@ import eserianPlains from "@/assets/eserian-plains.jpg";
 
 const properties = [
   {
-    id: 1,
+    id: "1",
     name: "Lucky Gardens",
     location: "Lucky Base Shopping Centre, KAG",
     price: "Ksh 1,300,000",
@@ -19,7 +25,7 @@ const properties = [
     status: "Hot Deal",
   },
   {
-    id: 2,
+    id: "4",
     name: "KCA Phase 2",
     location: "KCA University, Kitengela",
     price: "Ksh 650,000",
@@ -28,7 +34,7 @@ const properties = [
     status: "Available",
   },
   {
-    id: 3,
+    id: "2",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University, KAG Kitengela",
     price: "Ksh 1,100,000",
@@ -37,7 +43,7 @@ const properties = [
     status: "Premium",
   },
   {
-    id: 4,
+    id: "5",
     name: "KCA Phase 2 Commercial",
     location: "KCA Kitengela",
     price: "Ksh 650,000",
@@ -46,7 +52,7 @@ const properties = [
     status: "Available",
   },
   {
-    id: 5,
+    id: "3",
     name: "Konza View Phase 2",
     location: "Konza, Kenya",
     price: "Ksh 500,000",
@@ -55,7 +61,7 @@ const properties = [
     status: "Hot Deal",
   },
   {
-    id: 6,
+    id: "6",
     name: "Eserian Plains",
     location: "Kajiado, Kenya",
     price: "Ksh 350,000",
@@ -66,6 +72,34 @@ const properties = [
 ];
 
 const Properties = () => {
+  const [searchLocation, setSearchLocation] = useState("");
+  const [priceRange, setPriceRange] = useState("all");
+  const [statusFilter, setStatusFilter] = useState("all");
+
+  const clearFilters = () => {
+    setSearchLocation("");
+    setPriceRange("all");
+    setStatusFilter("all");
+  };
+
+  const filteredProperties = properties.filter((property) => {
+    const matchesLocation = searchLocation === "" || 
+      property.location.toLowerCase().includes(searchLocation.toLowerCase()) ||
+      property.name.toLowerCase().includes(searchLocation.toLowerCase());
+    
+    const price = parseInt(property.price.replace(/[^0-9]/g, ""));
+    const matchesPrice = 
+      priceRange === "all" ||
+      (priceRange === "low" && price < 700000) ||
+      (priceRange === "medium" && price >= 700000 && price < 1200000) ||
+      (priceRange === "high" && price >= 1200000);
+    
+    const matchesStatus = statusFilter === "all" || 
+      property.status.toLowerCase() === statusFilter.toLowerCase();
+
+    return matchesLocation && matchesPrice && matchesStatus;
+  });
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -81,16 +115,98 @@ const Properties = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {properties.map((property, index) => (
-                <div
-                  key={property.id}
-                  className="animate-fade-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
+            {/* Filters Section */}
+            <div className="mb-12 p-6 rounded-xl border border-border bg-card shadow-[var(--shadow-card)] animate-fade-in">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-semibold">Filter Properties</h2>
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  onClick={clearFilters}
+                  className="gap-2"
                 >
-                  <PropertyCard {...property} />
+                  <X className="h-4 w-4" />
+                  Clear Filters
+                </Button>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-4">
+                {/* Location Search */}
+                <div className="space-y-2">
+                  <Label htmlFor="location">Search Location</Label>
+                  <div className="relative">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                    <Input
+                      id="location"
+                      placeholder="Enter location..."
+                      value={searchLocation}
+                      onChange={(e) => setSearchLocation(e.target.value)}
+                      className="pl-10"
+                    />
+                  </div>
                 </div>
-              ))}
+
+                {/* Price Range */}
+                <div className="space-y-2">
+                  <Label htmlFor="price">Price Range</Label>
+                  <Select value={priceRange} onValueChange={setPriceRange}>
+                    <SelectTrigger id="price">
+                      <SelectValue placeholder="Select price range" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Prices</SelectItem>
+                      <SelectItem value="low">Under Ksh 700,000</SelectItem>
+                      <SelectItem value="medium">Ksh 700,000 - 1,200,000</SelectItem>
+                      <SelectItem value="high">Above Ksh 1,200,000</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Status Filter */}
+                <div className="space-y-2">
+                  <Label htmlFor="status">Status</Label>
+                  <Select value={statusFilter} onValueChange={setStatusFilter}>
+                    <SelectTrigger id="status">
+                      <SelectValue placeholder="Select status" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Status</SelectItem>
+                      <SelectItem value="available">Available</SelectItem>
+                      <SelectItem value="hot deal">Hot Deal</SelectItem>
+                      <SelectItem value="premium">Premium</SelectItem>
+                      <SelectItem value="prime location">Prime Location</SelectItem>
+                      <SelectItem value="new listing">New Listing</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+
+              <div className="mt-4 text-sm text-muted-foreground">
+                Showing {filteredProperties.length} of {properties.length} properties
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredProperties.length > 0 ? (
+                filteredProperties.map((property, index) => (
+                  <div
+                    key={property.id}
+                    className="animate-fade-in"
+                    style={{ animationDelay: `${index * 0.1}s` }}
+                  >
+                    <PropertyCard {...property} />
+                  </div>
+                ))
+              ) : (
+                <div className="col-span-full text-center py-16">
+                  <p className="text-xl text-muted-foreground mb-4">
+                    No properties found matching your filters
+                  </p>
+                  <Button variant="hero" onClick={clearFilters}>
+                    Clear Filters
+                  </Button>
+                </div>
+              )}
             </div>
           </div>
         </section>
