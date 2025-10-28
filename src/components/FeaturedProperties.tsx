@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PropertyCard } from "./PropertyCard";
 import property1 from "@/assets/property-1.jpg";
 import property2 from "@/assets/property-2.jpg";
@@ -59,13 +60,13 @@ export const FeaturedProperties = () => {
         </div>
 
         <div className="text-center mt-12 animate-fade-in">
-          <a
-            href="#properties"
+          <Link
+            to="/properties"
             className="text-primary hover:text-primary-glow font-semibold inline-flex items-center gap-2 transition-colors"
           >
             View All Properties
             <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

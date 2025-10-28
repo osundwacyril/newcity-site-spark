@@ -8,7 +8,7 @@ export const Navigation = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Properties", href: "#properties" },
+    { name: "Properties", href: "/properties" },
     { name: "About", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
@@ -18,9 +18,9 @@ export const Navigation = () => {
       {/* Top bar with contact info */}
       <div className="bg-primary text-primary-foreground py-2">
         <div className="container mx-auto px-4 flex justify-end items-center gap-6 text-sm">
-          <a href="tel:+254700000000" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <a href="tel:+254742498498" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Phone className="h-4 w-4" />
-            <span className="hidden sm:inline">+254 700 000 000</span>
+            <span className="hidden sm:inline">+254 7 42498498</span>
           </a>
           <a href="mailto:info@newcitylands.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Mail className="h-4 w-4" />
@@ -46,13 +46,23 @@ export const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-foreground hover:text-primary font-medium transition-colors"
-              >
-                {link.name}
-              </a>
+              link.href.startsWith('/') ? (
+                <Link
+                  key={link.name}
+                  to={link.href}
+                  className="text-foreground hover:text-primary font-medium transition-colors"
+                >
+                  {link.name}
+                </Link>
+              ) : (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-foreground hover:text-primary font-medium transition-colors"
+                >
+                  {link.name}
+                </a>
+              )
             ))}
             <Button variant="hero" size="default" asChild>
               <a href="#contact">Get Started</a>
@@ -74,14 +84,25 @@ export const Navigation = () => {
           <div className="md:hidden mt-4 py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-foreground hover:text-primary font-medium transition-colors py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.name}
-                </a>
+                link.href.startsWith('/') ? (
+                  <Link
+                    key={link.name}
+                    to={link.href}
+                    className="text-foreground hover:text-primary font-medium transition-colors py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.name}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-foreground hover:text-primary font-medium transition-colors py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.name}
+                  </a>
+                )
               ))}
               <Button variant="hero" size="default" className="w-full" asChild>
                 <a href="#contact" onClick={() => setIsMenuOpen(false)}>Get Started</a>
