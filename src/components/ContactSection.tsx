@@ -62,7 +62,7 @@ export const ContactSection = () => {
                         href="tel:+254742498498"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +254 7 42498498
+                        +254 742498498
                       </a>
                       <a
                         href="https://wa.me/254742498498"
@@ -100,7 +100,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Office</h4>
                     <p className="text-muted-foreground">
-                      Nairobi, Kenya
+                      Opposite Kitengela Mall
+                      Betty Business Centre
+                      Family Bank Building, 2nd Floor, Room 212
+                      Kitengela-Nairobi, Kenya
                     </p>
                   </div>
                 </div>
