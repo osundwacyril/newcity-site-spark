@@ -30,7 +30,7 @@ export const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose New City Lands?
+              Why Choose NewCity Real Estate?
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               We provide affordable, genuine plots for sale in Kenya with ready title deeds. 
@@ -62,10 +62,10 @@ export const AboutSection = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                  About New City Lands
+                  About NewCity Real Estate
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  New City Lands offers affordable, genuine plots for sale in Kenya with ready title deeds. 
+                  NewCity Real Estate offers affordable, genuine plots for sale in Kenya with ready title deeds.
                   We are the leading genuine real estate company in Kenya, committed to helping you secure 
                   your investment.
                 </p>

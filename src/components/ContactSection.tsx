@@ -85,10 +85,10 @@ export const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
                     <a
-                      href="mailto:info@newcitylands.com"
+                      href="mailto:info@newcityrealestate.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      info@newcitylands.com
+                      info@newcityrealestate.com
                     </a>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export const ContactSection = () => {
                 <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
                 <div className="flex gap-3">
                   <a
-                    href="https://facebook.com/newcitylands"
+                    href="https://facebook.com/newcityrealestate"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -132,7 +132,7 @@ export const ContactSection = () => {
                     <Facebook className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://instagram.com/newcitylands"
+                    href="https://instagram.com/newcityrealestate"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -141,7 +141,7 @@ export const ContactSection = () => {
                     <Instagram className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://twitter.com/newcitylands"
+                    href="https://twitter.com/newcityrealestate"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -150,7 +150,7 @@ export const ContactSection = () => {
                     <Twitter className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://linkedin.com/company/newcitylands"
+                    href="https://linkedin.com/company/newcityrealestate"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"

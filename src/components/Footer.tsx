@@ -112,7 +112,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground text-sm">
-          <p>© {currentYear} New City Lands. All rights reserved.</p>
+          <p>© {currentYear} NewCity Real Estate. All rights reserved.</p>
         </div>
       </div>
     </footer>

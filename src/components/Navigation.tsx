@@ -24,9 +24,9 @@ export const Navigation = () => {
             <Phone className="h-4 w-4" />
             <span className="hidden sm:inline">+254 7 42498498</span>
           </a>
-          <a href="mailto:info@newcitylands.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <a href="mailto:info@newcityrealestate.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Mail className="h-4 w-4" />
-            <span className="hidden sm:inline">info@newcitylands.com</span>
+            <span className="hidden sm:inline">info@newcityrealestate.com</span>
           </a>
         </div>
       </div>

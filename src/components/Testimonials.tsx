@@ -6,7 +6,7 @@ const testimonials = [
     id: 1,
     name: "James Mwangi",
     location: "Lucky Gardens Owner",
-    text: "I bought a plot at Lucky Gardens last year, and I'm amazed by how quickly the area is developing. The title deed process was smooth and transparent. New City Lands delivered on all their promises!",
+    text: "I bought a plot at Lucky Gardens last year, and I'm amazed by how quickly the area is developing. The title deed process was smooth and transparent. NewCity Real Estate delivered on all their promises!",
     rating: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
     id: 4,
     name: "Grace Wambui",
     location: "KCA Commercial Owner",
-    text: "I purchased a commercial plot near KCA University for rental apartments. The returns have exceeded my expectations! New City Lands helped me make a smart investment choice.",
+    text: "I purchased a commercial plot near KCA University for rental apartments. The returns have exceeded my expectations! NewCity Real Estate helped me make a smart investment choice.",
     rating: 5,
   },
 ];
