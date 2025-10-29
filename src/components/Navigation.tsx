@@ -39,7 +39,7 @@ export const Navigation = () => {
             <img 
               src={logo} 
               alt="New City Real Estate Logo" 
-              className="h-12 w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </Link>
 
