@@ -50,7 +50,7 @@ export const Navigation = () => {
                 <Link
                   key={link.name}
                   to={link.href}
-                  className="text-foreground hover:text-primary font-medium transition-colors"
+                  className="text-foreground hover:text-accent-red font-medium transition-all hover:drop-shadow-[var(--shadow-red-glow)]"
                 >
                   {link.name}
                 </Link>
@@ -58,7 +58,7 @@ export const Navigation = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-foreground hover:text-primary font-medium transition-colors"
+                  className="text-foreground hover:text-accent-red font-medium transition-all hover:drop-shadow-[var(--shadow-red-glow)]"
                 >
                   {link.name}
                 </a>
@@ -88,7 +88,7 @@ export const Navigation = () => {
                   <Link
                     key={link.name}
                     to={link.href}
-                    className="text-foreground hover:text-primary font-medium transition-colors py-2"
+                    className="text-foreground hover:text-accent-red font-medium transition-all py-2 hover:drop-shadow-[var(--shadow-red-glow)]"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {link.name}
@@ -97,7 +97,7 @@ export const Navigation = () => {
                   <a
                     key={link.name}
                     href={link.href}
-                    className="text-foreground hover:text-primary font-medium transition-colors py-2"
+                    className="text-foreground hover:text-accent-red font-medium transition-all py-2 hover:drop-shadow-[var(--shadow-red-glow)]"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {link.name}

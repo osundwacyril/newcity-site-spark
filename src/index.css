@@ -51,6 +51,7 @@ All colors MUST be HSL.
     --shadow-elegant: 0 10px 30px -10px hsl(158 64% 30% / 0.2);
     --shadow-card: 0 4px 20px -4px hsl(158 64% 30% / 0.15);
     --shadow-glow: 0 0 40px hsl(158 70% 45% / 0.3);
+    --shadow-red-glow: 0 0 20px hsl(355 72% 42% / 0.5);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -106,6 +107,7 @@ All colors MUST be HSL.
     --shadow-elegant: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
     --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.4);
     --shadow-glow: 0 0 40px hsl(158 75% 55% / 0.4);
+    --shadow-red-glow: 0 0 20px hsl(355 65% 50% / 0.6);
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
