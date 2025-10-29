@@ -319,7 +319,7 @@ const PropertyDetails = () => {
                     <Mail className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-xs text-muted-foreground">Email</p>
-                      <p className="font-semibold text-sm">info@newcityrealestate.com</p>
+                      <p className="font-semibold text-sm">info@newcitylands.com</p>
                     </div>
                   </div>
                 </div>
