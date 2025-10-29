@@ -35,7 +35,7 @@ export const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group mr-10">
+          <Link to="/" className="flex items-center gap-3 group mr-[90px]">
             <img 
               src={logo} 
               alt="New City Real Estate Logo" 
