@@ -178,7 +178,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold mb-8 text-center">Find Us Here</h2>
               <div className="rounded-lg overflow-hidden shadow-lg border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9088926516645!2d36.9628!3d-1.4167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMjUnMDAuMSJTIDM2wrA1Nyc0Ni4xIkU!5e0!3m2!1sen!2ske!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7745871234567!2d36.9550692!3d-1.4792598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f9f2d813233e5%3A0xa88564854ed8e2b2!2sNEWCITY%20REAL%20ESTATE!5e0!3m2!1sen!2ske!4v1234567890"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
