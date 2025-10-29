@@ -5,25 +5,25 @@ import { Award, Users, History } from "lucide-react";
 const About = () => {
   const teamMembers = [
     {
-      name: "John Kamau",
+      name: "Ndiritu Mathenge",
       role: "Chief Executive Officer",
-      bio: "15+ years experience in real estate development and investment",
+      bio: "Experience in real estate development and investment",
     },
     {
-      name: "Sarah Wanjiru",
-      role: "Head of Sales",
-      bio: "Expert in property sales with a track record of 500+ successful transactions",
+      name: "Samuel Mwangi",
+      role: "Sales and Property Manager",
+      bio: "Expert in property sales with a track record of 100+ successful transactions",
     },
     {
-      name: "David Omondi",
-      role: "Property Manager",
-      bio: "Specialized in property management and client relations",
+      name: "Veronica",
+      role: "Sales Manager",
+      bio: "Specialized in property sales management and client relations",
     },
   ];
 
   const awards = [
     {
-      year: "2024",
+      year: "2025",
       title: "Best Real Estate Company - Kenya",
       organization: "Kenya Property Awards",
     },
@@ -65,18 +65,18 @@ const About = () => {
               </div>
               <div className="space-y-6 text-muted-foreground">
                 <p className="text-lg">
-                  Founded in 2015, New City Real Estate has grown to become one of Kenya's most trusted property 
+                  Founded in 2024, New City Real Estate has grown to become one of Kenya's most trusted property 
                   companies. What started as a small team with a vision to make property ownership accessible has 
                   evolved into a full-service real estate firm serving thousands of satisfied clients.
                 </p>
                 <p className="text-lg">
-                  Over the years, we've facilitated the purchase and sale of properties worth over KES 5 billion, 
+                  Over the years, we've facilitated the purchase and sale of properties 
                   helping families find their dream homes and investors secure profitable properties. Our commitment 
                   to transparency, integrity, and exceptional service has earned us recognition across the industry.
                 </p>
                 <p className="text-lg">
                   Today, we operate across multiple counties in Kenya, offering prime residential and commercial 
-                  properties in strategic locations. Our portfolio includes developments in Kiambu, Machakos, 
+                  properties in strategic locations. Our portfolio includes developments in Machakos, 
                   Kajiado, and other growing urban centers.
                 </p>
               </div>
