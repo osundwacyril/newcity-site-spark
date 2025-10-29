@@ -11,8 +11,8 @@ export const Navigation = () => {
     { name: "Home", href: "/" },
     { name: "Properties", href: "/properties" },
     { name: "Blog", href: "/blog" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -65,7 +65,7 @@ export const Navigation = () => {
               )
             ))}
             <Button variant="hero" size="default" asChild>
-              <a href="#contact">Get Started</a>
+              <Link to="/contact">Get Started</Link>
             </Button>
           </div>
 
@@ -105,7 +105,7 @@ export const Navigation = () => {
                 )
               ))}
               <Button variant="hero" size="default" className="w-full" asChild>
-                <a href="#contact" onClick={() => setIsMenuOpen(false)}>Get Started</a>
+                <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Get Started</Link>
               </Button>
             </div>
           </div>
