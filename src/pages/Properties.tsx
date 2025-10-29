@@ -1,7 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { PropertyCard } from "@/components/PropertyCard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -72,9 +73,30 @@ const properties = [
 ];
 
 const Properties = () => {
+  const [searchParams] = useSearchParams();
   const [searchLocation, setSearchLocation] = useState("");
   const [priceRange, setPriceRange] = useState("all");
   const [statusFilter, setStatusFilter] = useState("all");
+
+  useEffect(() => {
+    const locationParam = searchParams.get("location");
+    const maxPriceParam = searchParams.get("maxPrice");
+    
+    if (locationParam) {
+      setSearchLocation(locationParam);
+    }
+    
+    if (maxPriceParam) {
+      const price = parseInt(maxPriceParam.replace(/[^0-9]/g, ""));
+      if (price < 700000) {
+        setPriceRange("low");
+      } else if (price < 1200000) {
+        setPriceRange("medium");
+      } else {
+        setPriceRange("high");
+      }
+    }
+  }, [searchParams]);
 
   const clearFilters = () => {
     setSearchLocation("");

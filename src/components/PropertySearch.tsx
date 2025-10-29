@@ -1,16 +1,20 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Search, MapPin, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 export const PropertySearch = () => {
+  const navigate = useNavigate();
   const [location, setLocation] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle search logic here
-    console.log("Searching for:", { location, maxPrice });
+    const params = new URLSearchParams();
+    if (location) params.append("location", location);
+    if (maxPrice) params.append("maxPrice", maxPrice);
+    navigate(`/properties?${params.toString()}`);
   };
 
   const popularLocations = ["Kiambu", "Machakos", "Nakuru", "Kajiado", "Nairobi"];
