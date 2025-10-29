@@ -53,7 +53,7 @@ export const HeroCarousel = () => {
   const currentProperty = properties[currentIndex];
 
   return (
-    <div className="relative h-[600px] md:h-[700px] overflow-hidden">
+    <div className="relative h-[580px] md:h-[680px] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         {properties.map((property, index) => (

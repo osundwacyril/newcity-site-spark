@@ -165,9 +165,12 @@ export const ContactSection = () => {
             {/* Contact Form */}
             <div className="animate-slide-in-right">
               <form
+                name="contact"
+                data-netlify="true"
                 onSubmit={handleSubmit}
                 className="bg-card p-8 rounded-2xl shadow-[var(--shadow-card)] border border-border space-y-6"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-foreground">
                     Full Name *
