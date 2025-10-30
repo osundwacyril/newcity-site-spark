@@ -68,7 +68,7 @@ export const PropertyCard = ({
           <Link to={`/properties/${id}`}>View Details</Link>
         </Button>
         <Button variant="outline" className="flex-1" asChild>
-          <a href="#contact">Schedule Visit</a>
+          <a href="https://wa.me/254742498498" target="_blank" rel="noopener noreferrer">Schedule Visit</a>
         </Button>
       </CardFooter>
     </Card>

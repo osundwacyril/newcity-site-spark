@@ -326,13 +326,13 @@ const PropertyDetails = () => {
 
                 <div className="space-y-3">
                   <Button variant="hero" className="w-full" asChild>
-                    <a href="#contact">Inquire Now</a>
+                    <a href="tel:0742498498">Inquire Now</a>
                   </Button>
-                  <Button variant="outline" className="w-full">
-                    Schedule Site Visit
+                  <Button variant="outline" className="w-full" asChild>
+                    <a href="https://wa.me/254742498498" target="_blank" rel="noopener noreferrer">Schedule Site Visit</a>
                   </Button>
-                  <Button variant="outline" className="w-full">
-                    WhatsApp Agent
+                  <Button variant="outline" className="w-full" asChild>
+                    <a href="https://wa.me/2547424984984" target="_blank" rel="noopener noreferrer">WhatsApp Agent</a>
                   </Button>
                 </div>
               </div>
