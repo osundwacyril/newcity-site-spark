@@ -2,22 +2,16 @@ import { Play } from "lucide-react";
 
 const videoTestimonials = [
   {
-    id: "dQw4w9WgXcQ",
-    title: "John Kamau - Happy Client from Machakos",
-    clientName: "John Kamau",
-    location: "Machakos County",
+    id: "GxdnMJzHq5Q",
+    title: "Company Director - NewCity Real Estate",
+    clientName: "Ndiritu Mathenge",
+    location: "CEO, NewCity Real Estate",
   },
   {
-    id: "dQw4w9WgXcQ",
-    title: "Mary Wanjiku - Investment Success Story",
-    clientName: "Mary Wanjiku",
-    location: "Kajiado County",
-  },
-  {
-    id: "dQw4w9WgXcQ",
-    title: "Peter Ochieng - First Time Land Owner",
-    clientName: "Peter Ochieng",
-    location: "Konza City",
+    id: "hpo-hMwkFVY",
+    title: "Company Director - NewCity Real Estate",
+    clientName: "Ndiritu Mathenge",
+    location: "CEO, NewCity Real Estate",
   },
 ];
 
