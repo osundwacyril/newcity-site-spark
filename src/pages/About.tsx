@@ -23,14 +23,14 @@ const About = () => {
     },
     {
       name: "Veronica",
-      role: "Sales Manager",
+      role: "Sales Agent",
       bio: "Specialized in property sales management and client relations",
       photo: veronicaPhoto,
     },
     {
-      name: "Grace Njeri",
-      role: "Marketing Manager",
-      bio: "Creative strategist specializing in digital marketing and brand development",
+      name: "Charity Ngingo",
+      role: "Director",
+      bio: "Managing director",
       photo: gracePhoto,
     },
   ];
@@ -38,18 +38,8 @@ const About = () => {
   const awards = [
     {
       year: "2025",
-      title: "Best Real Estate Company - Kenya",
-      organization: "Kenya Property Awards",
-    },
-    {
-      year: "2023",
-      title: "Excellence in Customer Service",
-      organization: "Real Estate Board of Kenya",
-    },
-    {
-      year: "2022",
-      title: "Top Property Developer",
-      organization: "East Africa Real Estate Summit",
+      title: "Pacesetter In Affordable Land Solutions & Ownership",
+      organization: "Jubilant Stewards of Africa Pacesetters International Awards",
     },
   ];
 
@@ -63,7 +53,7 @@ const About = () => {
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">About New City Real Estate</h1>
               <p className="text-lg text-muted-foreground">
-                Your trusted partner in finding the perfect property in Kenya
+                Your trusted partner in finding genuine and affordable plots in Kenya
               </p>
             </div>
           </div>
@@ -81,7 +71,7 @@ const About = () => {
                 <p className="text-lg">
                   Founded in 2024, New City Real Estate has grown to become one of Kenya's most trusted property 
                   companies. What started as a small team with a vision to make property ownership accessible has 
-                  evolved into a full-service real estate firm serving thousands of satisfied clients.
+                  evolved into a full-service real estate firm serving hundreds of satisfied clients.
                 </p>
                 <p className="text-lg">
                   Over the years, we've facilitated the purchase and sale of properties 
@@ -90,7 +80,7 @@ const About = () => {
                 </p>
                 <p className="text-lg">
                   Today, we operate across multiple counties in Kenya, offering prime residential and commercial 
-                  properties in strategic locations. Our portfolio includes developments in Machakos, 
+                  properties in strategic locations. Our portfolio includes developments in 
                   Kajiado, and other growing urban centers.
                 </p>
               </div>
