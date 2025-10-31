@@ -44,7 +44,7 @@ export const AboutSection = () => {
               return (
                 <div
                   key={feature.title}
-                  className="text-center animate-fade-in"
+                  className={`text-center animate-fade-in group p-6 rounded-2xl transition-all duration-300 ${isRedFeature ? 'hover:bg-accent-red/10' : ''}`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className={`inline-flex items-center justify-center w-16 h-16 ${isRedFeature ? 'bg-accent-red/10' : 'bg-primary/10'} rounded-2xl mb-4 group-hover:${isRedFeature ? 'bg-accent-red/20' : 'bg-primary/20'} transition-colors ${isRedFeature ? 'shadow-[var(--shadow-red-glow)]' : ''}`}>
