@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { VideoTestimonials } from "@/components/VideoTestimonials";
 import { Award, Users, History } from "lucide-react";
 
 const About = () => {
@@ -141,6 +142,9 @@ const About = () => {
             </div>
           </div>
         </section>
+
+        {/* Video Testimonials Section */}
+        <VideoTestimonials />
       </main>
       <Footer />
     </div>
