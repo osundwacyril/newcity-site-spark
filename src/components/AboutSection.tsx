@@ -39,23 +39,26 @@ export const AboutSection = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {features.map((feature, index) => (
-              <div
-                key={feature.title}
-                className="text-center animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-4 group-hover:bg-primary/20 transition-colors">
-                  <feature.icon className="h-8 w-8 text-primary" />
+            {features.map((feature, index) => {
+              const isRedFeature = index === 0 || index === 2;
+              return (
+                <div
+                  key={feature.title}
+                  className="text-center animate-fade-in"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <div className={`inline-flex items-center justify-center w-16 h-16 ${isRedFeature ? 'bg-accent-red/10' : 'bg-primary/10'} rounded-2xl mb-4 group-hover:${isRedFeature ? 'bg-accent-red/20' : 'bg-primary/20'} transition-colors ${isRedFeature ? 'shadow-[var(--shadow-red-glow)]' : ''}`}>
+                    <feature.icon className={`h-8 w-8 ${isRedFeature ? 'text-accent-red' : 'text-primary'}`} />
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground mb-2">
+                    {feature.title}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {feature.description}
+                  </p>
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-muted-foreground">
-                  {feature.description}
-                </p>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <div className="bg-card rounded-2xl shadow-[var(--shadow-card)] p-8 md:p-12 border border-border animate-scale-in">
