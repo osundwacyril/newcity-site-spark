@@ -10,10 +10,16 @@ import gracePhoto from "@/assets/team/grace-njeri.jpg";
 const About = () => {
   const teamMembers = [
     {
-      name: "Ndiritu Mathenge",
+      name: "Peter N. Mathenge",
       role: "Chief Executive Officer",
       bio: "Experience in real estate development and investment",
       photo: ndirituPhoto,
+    },
+    {
+      name: "Charity Ngingo",
+      role: "Director",
+      bio: "Managing director",
+      photo: gracePhoto,
     },
     {
       name: "Samuel Mwangi",
@@ -26,12 +32,6 @@ const About = () => {
       role: "Sales Agent",
       bio: "Specialized in property sales management and client relations",
       photo: veronicaPhoto,
-    },
-    {
-      name: "Charity Ngingo",
-      role: "Director",
-      bio: "Managing director",
-      photo: gracePhoto,
     },
   ];
 
