@@ -2,6 +2,10 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { VideoTestimonials } from "@/components/VideoTestimonials";
 import { Award, Users, History } from "lucide-react";
+import ndirituPhoto from "@/assets/team/ndiritu-mathenge.jpg";
+import samuelPhoto from "@/assets/team/samuel-mwangi.jpg";
+import veronicaPhoto from "@/assets/team/veronica.jpg";
+import gracePhoto from "@/assets/team/grace-njeri.jpg";
 
 const About = () => {
   const teamMembers = [
@@ -9,16 +13,25 @@ const About = () => {
       name: "Ndiritu Mathenge",
       role: "Chief Executive Officer",
       bio: "Experience in real estate development and investment",
+      photo: ndirituPhoto,
     },
     {
       name: "Samuel Mwangi",
       role: "Sales and Property Manager",
       bio: "Expert in property sales with a track record of 100+ successful transactions",
+      photo: samuelPhoto,
     },
     {
       name: "Veronica",
       role: "Sales Manager",
       bio: "Specialized in property sales management and client relations",
+      photo: veronicaPhoto,
+    },
+    {
+      name: "Grace Njeri",
+      role: "Marketing Manager",
+      bio: "Creative strategist specializing in digital marketing and brand development",
+      photo: gracePhoto,
     },
   ];
 
@@ -93,14 +106,18 @@ const About = () => {
                 <Users className="h-8 w-8 text-accent-red" />
                 <h2 className="text-3xl font-bold">Our Team</h2>
               </div>
-              <div className="grid md:grid-cols-3 gap-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {teamMembers.map((member, index) => (
                   <div
                     key={index}
                     className="bg-card p-6 rounded-lg border border-border shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <div className="w-24 h-24 rounded-full bg-accent-red/10 mx-auto mb-4 flex items-center justify-center">
-                      <Users className="h-12 w-12 text-accent-red" />
+                    <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-accent-red/20">
+                      <img 
+                        src={member.photo} 
+                        alt={member.name}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <h3 className="text-xl font-semibold text-center mb-2">{member.name}</h3>
                     <p className="text-accent-red text-center mb-3">{member.role}</p>
