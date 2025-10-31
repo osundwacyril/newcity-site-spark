@@ -64,7 +64,7 @@ export const PropertyCard = ({
       </CardContent>
 
       <CardFooter className="p-5 pt-0 gap-2">
-        <Button variant="hero" className="flex-1" asChild>
+        <Button variant="accent-red" className="flex-1" asChild>
           <Link to={`/properties/${id}`}>View Details</Link>
         </Button>
         <Button variant="outline" className="flex-1" asChild>

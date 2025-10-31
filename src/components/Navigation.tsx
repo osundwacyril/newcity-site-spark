@@ -64,7 +64,7 @@ export const Navigation = () => {
                 </a>
               )
             ))}
-            <Button variant="hero" size="default" asChild>
+            <Button variant="accent-red" size="default" asChild>
               <Link to="/contact">Get Started</Link>
             </Button>
           </div>
@@ -104,7 +104,7 @@ export const Navigation = () => {
                   </a>
                 )
               ))}
-              <Button variant="hero" size="default" className="w-full" asChild>
+              <Button variant="accent-red" size="default" className="w-full" asChild>
                 <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Get Started</Link>
               </Button>
             </div>

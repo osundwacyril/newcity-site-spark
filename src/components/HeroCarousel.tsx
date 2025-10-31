@@ -97,7 +97,7 @@ export const HeroCarousel = () => {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <Button variant="hero" size="xl" asChild>
+            <Button variant="accent-red" size="xl" asChild>
               <a href="#properties">View Properties</a>
             </Button>
             <Button variant="outline-hero" size="xl" asChild>

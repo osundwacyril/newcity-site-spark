@@ -325,7 +325,7 @@ const PropertyDetails = () => {
                 </div>
 
                 <div className="space-y-3">
-                  <Button variant="hero" className="w-full" asChild>
+                  <Button variant="accent-red" className="w-full" asChild>
                     <a href="tel:0742498498">Inquire Now</a>
                   </Button>
                   <Button variant="outline" className="w-full" asChild>
