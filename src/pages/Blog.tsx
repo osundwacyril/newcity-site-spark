@@ -3,69 +3,8 @@ import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, User } from "lucide-react";
-
-const blogPosts = [
-  {
-    id: 1,
-    title: "Top 5 Neighborhoods in Nairobi for First-Time Homebuyers",
-    excerpt: "Discover the most affordable and promising neighborhoods perfect for your first property investment in Nairobi.",
-    author: "NewCity Real Estate Team",
-    date: "2025-10-15",
-    readTime: "5 min read",
-    category: "Buying Guide",
-    image: "/placeholder.svg"
-  },
-  {
-    id: 2,
-    title: "Understanding Property Valuation in Kenya",
-    excerpt: "Learn how property values are determined and what factors influence real estate prices in the Kenyan market.",
-    author: "NewCity Real Estate Team",
-    date: "2025-10-10",
-    readTime: "7 min read",
-    category: "Market Insights",
-    image: "/placeholder.svg"
-  },
-  {
-    id: 3,
-    title: "The Complete Guide to Property Documentation in Kenya",
-    excerpt: "Everything you need to know about title deeds, land registrations, and legal requirements for property ownership.",
-    author: "NewCity Real Estate Team",
-    date: "2025-10-05",
-    readTime: "10 min read",
-    category: "Legal Guide",
-    image: "/placeholder.svg"
-  },
-  {
-    id: 4,
-    title: "Investment Opportunities: Land vs Developed Properties",
-    excerpt: "Compare the pros and cons of investing in raw land versus fully developed properties in today's market.",
-    author: "NewCity Real Estate Team",
-    date: "2025-09-28",
-    readTime: "6 min read",
-    category: "Investment",
-    image: "/placeholder.svg"
-  },
-  {
-    id: 5,
-    title: "How to Finance Your Dream Home in Kenya",
-    excerpt: "Explore different financing options including mortgages, savings plans, and government housing schemes.",
-    author: "NewCity Real Estate Team",
-    date: "2025-09-20",
-    readTime: "8 min read",
-    category: "Finance",
-    image: "/placeholder.svg"
-  },
-  {
-    id: 6,
-    title: "Sustainable Living: Eco-Friendly Homes in Kenya",
-    excerpt: "Discover the benefits of green building practices and sustainable property development in modern Kenya.",
-    author: "NewCity Real Estate Team",
-    date: "2025-09-15",
-    readTime: "6 min read",
-    category: "Sustainability",
-    image: "/placeholder.svg"
-  }
-];
+import { Link } from "react-router-dom";
+import { blogPosts } from "@/data/blogPosts";
 
 const Blog = () => {
   return (
@@ -91,7 +30,8 @@ const Blog = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {blogPosts.map((post) => (
-                <Card key={post.id} className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <Link key={post.id} to={`/blog/${post.slug}`}>
+                  <Card className="group hover:shadow-lg transition-all duration-300 overflow-hidden h-full">
                   <div className="relative h-48 bg-gradient-to-br from-primary/20 to-primary/5 overflow-hidden">
                     <img 
                       src={post.image} 
@@ -127,6 +67,7 @@ const Blog = () => {
                     </div>
                   </CardContent>
                 </Card>
+                </Link>
               ))}
             </div>
           </div>
