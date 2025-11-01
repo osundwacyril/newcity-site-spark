@@ -11,7 +11,7 @@ const About = () => {
   const teamMembers = [
     {
       name: "Peter N. Mathenge",
-      role: "Chief Executive Officer",
+      role: "Director",
       bio: "Experience in real estate development and investment",
       photo: ndirituPhoto,
     },
