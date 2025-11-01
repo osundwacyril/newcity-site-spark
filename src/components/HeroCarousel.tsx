@@ -4,31 +4,32 @@ import { Button } from "@/components/ui/button";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
 import konzaView from "@/assets/konza-view.jpg";
+import eserianPlains from "@/assets/eserian-plains.jpg";
 
 const properties = [
   {
     id: 1,
-    name: "Lucky Gardens",
-    location: "Lucky Base Shopping Centre, KAG",
-    price: "Ksh 1,300,000",
-    image: luckyGardens,
-    description: "Commercial plots with ready title deeds and excellent infrastructure",
+    name: "Eserian Plains",
+    location: "KCA University-Kitengela",
+    price: "Ksh 350,000",
+    image: eserianPlains,
+    description: "Affordable plots with ready title deeds near KCA University - Deposit Ksh 35,000",
   },
   {
     id: 2,
-    name: "Fahari Gardens Phase 2",
-    location: "Kampala University, KAG Kitengela",
-    price: "Ksh 1,100,000",
-    image: fahariGardens,
-    description: "Prime land plots 1.5KM off tarmac with balance payment in 12 months",
+    name: "Konza View Phase 2",
+    location: "Konza Town",
+    price: "Ksh 500,000",
+    image: konzaView,
+    description: "Stunning views of Konza Technopolis - Deposit Ksh 150,000, Balance in 3 months",
   },
   {
     id: 3,
-    name: "Konza View Phase 2",
-    location: "Konza, Kenya",
-    price: "Ksh 500,000",
-    image: konzaView,
-    description: "Affordable plots with ready title deeds - Your power to build starts with land",
+    name: "Fahari Gardens Phase 2",
+    location: "Kampala University Kitengela",
+    price: "Ksh 1,100,000",
+    image: fahariGardens,
+    description: "Prime plots near Kampala University - Deposit Ksh 300,000, Balance in 12 months",
   },
 ];
 

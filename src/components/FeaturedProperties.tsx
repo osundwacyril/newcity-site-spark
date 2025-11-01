@@ -3,33 +3,34 @@ import { PropertyCard } from "./PropertyCard";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
+import konzaView from "@/assets/konza-view.jpg";
 
 const properties = [
   {
-    id: "1",
-    name: "Lucky Gardens",
-    location: "Lucky Base Shopping Centre, KAG",
-    price: "Ksh 1,300,000",
-    image: luckyGardens,
-    size: "Commercial Plot",
+    id: "2",
+    name: "Konza View Phase 2",
+    location: "Konza Town",
+    price: "Ksh 500,000",
+    image: konzaView,
+    size: "50*100",
     status: "Hot Deal",
   },
   {
-    id: "2",
-    name: "KCA Phase 2",
-    location: "KCA University, Kitengela",
+    id: "3",
+    name: "KCA University",
+    location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
     image: kcaPhase2,
-    size: "Ready Title",
+    size: "50*100",
     status: "Available",
   },
   {
-    id: "3",
+    id: "5",
     name: "Fahari Gardens Phase 2",
-    location: "Kampala University, KAG Kitengela",
+    location: "Kampala University Kitengela",
     price: "Ksh 1,100,000",
     image: fahariGardens,
-    size: "1.5KM Off Tarmac",
+    size: "50*100",
     status: "Premium",
   },
 ];

@@ -13,21 +13,151 @@ import eserianPlains from "@/assets/eserian-plains.jpg";
 const properties = [
   {
     id: "1",
-    name: "Lucky Gardens",
-    location: "Lucky Base Shopping Centre, KAG",
-    price: "Ksh 1,300,000",
-    deposit: "Ksh 100,000",
-    image: luckyGardens,
-    size: "50x100",
+    name: "Eserian Plains",
+    location: "KCA University-Kitengela",
+    price: "Ksh 350,000",
+    deposit: "Ksh 35,000",
+    image: eserianPlains,
+    size: "50*100",
     status: "Available",
-    description: "Prime commercial plots strategically located at Lucky Base Shopping Centre along Kitengela-Athi River Road. These plots offer exceptional business opportunities with high foot traffic and excellent visibility.",
+    description: "Prime residential plots near KCA University with ready title deeds",
     amenities: [
       "Ready Title Deeds",
-      "Electricity Available",
-      "Water Connection",
-      "Tarmac Road Access",
+      "50*100 Plot Size",
+      "Deposit: Ksh 35,000",
+      "Balance in 12 months",
+      "Near KCA University",
+      "Good Infrastructure"
+    ],
+    nearbyInfrastructure: [
+      "KCA University - Adjacent",
+      "Kitengela Town - 5km",
+      "Nairobi CBD - 35km",
+      "Shopping Centers - 2km",
+      "Schools - 1km"
+    ]
+  },
+  {
+    id: "2",
+    name: "Konza View Phase 2",
+    location: "Konza Town",
+    price: "Ksh 500,000",
+    deposit: "Ksh 150,000",
+    image: konzaView,
+    size: "50*100",
+    status: "Hot Deal",
+    description: "Affordable residential plots with stunning views of the Konza Technopolis",
+    amenities: [
+      "Ready Title Deeds",
+      "50*100 Plot Size",
+      "Deposit: Ksh 150,000",
+      "Balance in 3 months",
+      "Konza Technopolis Views",
+      "Investment Opportunity"
+    ],
+    nearbyInfrastructure: [
+      "Konza Technopolis - 5km",
+      "Nairobi-Mombasa Highway - 3km",
+      "Machakos Town - 15km",
+      "SGR Station - 10km",
+      "Commercial Centers"
+    ]
+  },
+  {
+    id: "3",
+    name: "KCA University",
+    location: "500 Meters to KCA University Kitengela",
+    price: "Ksh 650,000",
+    deposit: "Ksh 65,000",
+    image: kcaPhase2,
+    size: "50*100",
+    status: "Available",
+    description: "Prime residential plots near KCA University offering excellent investment potential",
+    amenities: [
+      "Ready Title Deeds",
+      "50*100 Plot Size",
+      "Deposit: Ksh 65,000",
+      "Balance in 3 months",
+      "University Proximity",
+      "High Rental Demand"
+    ],
+    nearbyInfrastructure: [
+      "KCA University - 500m",
+      "Kitengela Town - 4km",
+      "Shopping Centers - 1km",
+      "Public Transport - 500m",
+      "Schools - 2km"
+    ]
+  },
+  {
+    id: "4",
+    name: "Acacia Phase 1",
+    location: "Oloika Acacia-Kitengela",
+    price: "Ksh 950,000",
+    deposit: "Ksh 200,000",
+    image: kcaCommercial,
+    size: "50*100",
+    status: "Premium",
+    description: "Premium plots in the serene Acacia area of Kitengela with excellent infrastructure",
+    amenities: [
+      "Ready Title Deeds",
+      "50*100 Plot Size",
+      "Deposit: Ksh 200,000",
+      "Balance in 6 months",
+      "Serene Environment",
+      "Excellent Infrastructure"
+    ],
+    nearbyInfrastructure: [
+      "Oloika Shopping Centre - 2km",
+      "Kitengela Town - 6km",
+      "Nairobi Road - 3km",
+      "Schools & Hospitals - 3km",
+      "Public Transport - 1km"
+    ]
+  },
+  {
+    id: "5",
+    name: "Fahari Gardens Phase 2",
+    location: "Kampala University Kitengela",
+    price: "Ksh 1,100,000",
+    deposit: "Ksh 300,000",
+    image: fahariGardens,
+    size: "50*100",
+    status: "Premium",
+    description: "Beautiful residential plots near Kampala University in a planned community",
+    amenities: [
+      "Ready Title Deeds",
+      "50*100 Plot Size",
+      "Deposit: Ksh 300,000",
+      "Balance in 12 months",
+      "Planned Community",
+      "University Proximity"
+    ],
+    nearbyInfrastructure: [
+      "Kampala University - 500m",
+      "KAG Church - 1km",
+      "Kitengela Town - 5km",
+      "Schools & Hospitals - 2km",
+      "Shopping Centers - 1.5km"
+    ]
+  },
+  {
+    id: "6",
+    name: "Lucky Gardens",
+    location: "Lucky Base Shopping Centre /KAG Kitengela",
+    price: "Ksh 1,300,000",
+    deposit: "Ksh 300,000",
+    image: luckyGardens,
+    size: "50*100",
+    status: "Hot Deal",
+    description: "Prime commercial plots at Lucky Base Shopping Centre with high foot traffic",
+    amenities: [
+      "Ready Title Deeds",
+      "50*100 Plot Size",
+      "Deposit: Ksh 300,000",
+      "Balance in 3 months",
       "Shopping Centre Proximity",
-      "High Foot Traffic Area"
+      "High Foot Traffic"
     ],
     nearbyInfrastructure: [
       "Lucky Base Shopping Centre - Adjacent",
@@ -38,133 +168,29 @@ const properties = [
     ]
   },
   {
-    id: "2",
-    name: "Fahari Gardens Phase 2",
-    location: "Kampala University, KAG Kitengela",
-    price: "Ksh 1,100,000",
-    deposit: "Ksh 100,000",
+    id: "7",
+    name: "Fahari Gardens Phase 3",
+    location: "Kampala University Kitengela",
+    price: "Ksh 1,300,000",
+    deposit: "Ksh 200,000",
     image: fahariGardens,
-    size: "50x100",
-    status: "Available",
-    description: "Beautiful residential plots located 1.5KM off tarmac near Kampala University. Perfect for building your dream home in a serene, planned community with flexible payment terms.",
+    size: "50*100",
+    status: "Premium",
+    description: "Premium residential plots in the latest phase near Kampala University",
     amenities: [
       "Ready Title Deeds",
-      "12 Months Balance Payment",
+      "50*100 Plot Size",
+      "Deposit: Ksh 200,000",
+      "Balance in 3 months",
       "Planned Community",
-      "Access Roads",
-      "University Proximity",
-      "Secure Neighborhood"
+      "University Proximity"
     ],
     nearbyInfrastructure: [
       "Kampala University - 500m",
       "KAG Church - 1km",
-      "Tarmac Road - 1.5km",
       "Kitengela Town - 5km",
-      "Schools & Hospitals - 2km"
-    ]
-  },
-  {
-    id: "3",
-    name: "Konza View Phase 2",
-    location: "Konza, Kenya",
-    price: "Ksh 500,000",
-    deposit: "Ksh 100,000",
-    image: konzaView,
-    size: "50x100",
-    status: "Hot Deal",
-    description: "Affordable residential plots with stunning views of the Konza Technopolis. Your power to build starts with land - invest in the future tech city of Kenya with ready title deeds.",
-    amenities: [
-      "Ready Title Deeds",
-      "Affordable Pricing",
-      "Konza Technopolis Views",
-      "Planned Layout",
-      "Access Roads",
-      "Investment Opportunity"
-    ],
-    nearbyInfrastructure: [
-      "Konza Technopolis - 5km",
-      "Nairobi-Mombasa Highway - 3km",
-      "Machakos Town - 15km",
-      "SGR Station - 10km",
-      "Upcoming Commercial Centers"
-    ]
-  },
-  {
-    id: "4",
-    name: "KCA Phase 2",
-    location: "KCA University, Kitengela",
-    price: "Ksh 950,000",
-    deposit: "Ksh 100,000",
-    image: kcaPhase2,
-    size: "50x100",
-    status: "Available",
-    description: "Prime residential plots near KCA University offering excellent investment potential in a rapidly developing area with strong rental demand from students and staff.",
-    amenities: [
-      "Ready Title Deeds",
-      "University Proximity",
-      "High Rental Demand",
-      "Developed Area",
-      "Good Road Network",
-      "Security"
-    ],
-    nearbyInfrastructure: [
-      "KCA University - Adjacent",
-      "Kitengela Town - 4km",
-      "Shopping Centers - 1km",
-      "Public Transport - 500m",
-      "Schools - 2km"
-    ]
-  },
-  {
-    id: "5",
-    name: "KCA Phase 2 Commercial",
-    location: "KCA University, Kitengela",
-    price: "Ksh 1,500,000",
-    deposit: "Ksh 150,000",
-    image: kcaCommercial,
-    size: "50x100",
-    status: "Prime Location",
-    description: "Exceptional commercial plots strategically positioned near KCA University. Perfect for retail, offices, or rental apartments with guaranteed returns from the university community.",
-    amenities: [
-      "Ready Title Deeds",
-      "Commercial Zoning",
-      "High Traffic Location",
-      "University Market",
-      "Utilities Available",
-      "Investment Grade"
-    ],
-    nearbyInfrastructure: [
-      "KCA University - 200m",
-      "Main Road Access - Adjacent",
-      "Student Hostels - 500m",
-      "Banks & ATMs - 1km",
-      "Public Transport Hub - 300m"
-    ]
-  },
-  {
-    id: "6",
-    name: "Eserian Plains",
-    location: "Kajiado County",
-    price: "Ksh 750,000",
-    deposit: "Ksh 100,000",
-    image: eserianPlains,
-    size: "50x100",
-    status: "New Listing",
-    description: "Serene residential plots in the beautiful Eserian Plains of Kajiado County. Enjoy wide open spaces, fresh air, and the perfect setting for your dream home away from city noise.",
-    amenities: [
-      "Ready Title Deeds",
-      "Spacious Plots",
-      "Scenic Environment",
-      "Clean Air",
-      "Planned Development",
-      "Affordable"
-    ],
-    nearbyInfrastructure: [
-      "Kajiado Town - 12km",
-      "Namanga Road - 8km",
-      "Schools - 5km",
-      "Health Centers - 6km",
-      "Nairobi - 45km"
+      "Schools & Hospitals - 2km",
+      "Shopping Centers - 1.5km"
     ]
   },
 ];
