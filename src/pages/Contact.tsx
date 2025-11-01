@@ -61,7 +61,7 @@ const Contact = () => {
                           href="tel:+254742498498" 
                           className="text-muted-foreground hover:text-accent-red transition-colors"
                         >
-                          +254 7 42498498
+                          +254742 498 498
                         </a>
                       </div>
                     </div>
