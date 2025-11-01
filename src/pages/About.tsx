@@ -69,19 +69,18 @@ const About = () => {
               </div>
               <div className="space-y-6 text-muted-foreground">
                 <p className="text-lg">
-                  Founded in 2024, New City Real Estate has grown to become one of Kenya's most trusted property 
-                  companies. What started as a small team with a vision to make property ownership accessible has 
-                  evolved into a full-service real estate firm serving hundreds of satisfied clients.
+                  NewCity Real Estate has been founded on a strong foundation of land surveying professionals 
+                  and extensive practice in land survey, land management and conveyance with over 15 years of experience.
                 </p>
                 <p className="text-lg">
-                  Over the years, we've facilitated the purchase and sale of properties 
-                  helping families find their dream homes and investors secure profitable properties. Our commitment 
-                  to transparency, integrity, and exceptional service has earned us recognition across the industry.
+                  On this foundation, we have extended our services from land surveying to now sale of land to 
+                  enable people become land owners through provision of affordable plots and land through our 
+                  land buying and selling company.
                 </p>
                 <p className="text-lg">
-                  Today, we operate across multiple counties in Kenya, offering prime residential and commercial 
-                  properties in strategic locations. Our portfolio includes developments in 
-                  Kajiado, and other growing urban centers.
+                  Today, we continue to leverage our deep expertise in land management to provide genuine, 
+                  affordable plots across Kenya, helping families and investors secure their land ownership dreams 
+                  with confidence and transparency.
                 </p>
               </div>
             </div>

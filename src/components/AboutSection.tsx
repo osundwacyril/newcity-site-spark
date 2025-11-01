@@ -68,14 +68,13 @@ export const AboutSection = () => {
                   About NewCity Real Estate
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  NewCity Real Estate offers affordable, genuine plots for sale in Kenya with ready title deeds.
-                  We are the leading genuine real estate company in Kenya, committed to helping you secure 
-                  your investment.
+                  NewCity Real Estate has been founded on a strong foundation of land surveying professionals 
+                  and extensive practice in land survey, land management and conveyance with over 15 years of experience.
                 </p>
                 <p className="text-muted-foreground">
-                  Our properties are strategically located in high-growth areas across Kenya, ensuring 
-                  excellent returns on your investment. We provide comprehensive support throughout your 
-                  purchase journey.
+                  On this foundation, we have extended our services from land surveying to now sale of land to 
+                  enable people become land owners through provision of affordable plots and land. We provide 
+                  comprehensive support throughout your purchase journey with genuine plots and ready title deeds.
                 </p>
               </div>
               <div className="space-y-4">
