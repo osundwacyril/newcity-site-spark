@@ -28,13 +28,6 @@ const properties = [
       "Balance in 12 months",
       "Near KCA University",
       "Good Infrastructure"
-    ],
-    nearbyInfrastructure: [
-      "KCA University - Adjacent",
-      "Kitengela Town - 5km",
-      "Nairobi CBD - 35km",
-      "Shopping Centers - 2km",
-      "Schools - 1km"
     ]
   },
   {
@@ -54,13 +47,6 @@ const properties = [
       "Balance in 3 months",
       "Konza Technopolis Views",
       "Investment Opportunity"
-    ],
-    nearbyInfrastructure: [
-      "Konza Technopolis - 5km",
-      "Nairobi-Mombasa Highway - 3km",
-      "Machakos Town - 15km",
-      "SGR Station - 10km",
-      "Commercial Centers"
     ]
   },
   {
@@ -80,13 +66,6 @@ const properties = [
       "Balance in 3 months",
       "University Proximity",
       "High Rental Demand"
-    ],
-    nearbyInfrastructure: [
-      "KCA University - 500m",
-      "Kitengela Town - 4km",
-      "Shopping Centers - 1km",
-      "Public Transport - 500m",
-      "Schools - 2km"
     ]
   },
   {
@@ -106,13 +85,6 @@ const properties = [
       "Balance in 6 months",
       "Serene Environment",
       "Excellent Infrastructure"
-    ],
-    nearbyInfrastructure: [
-      "Oloika Shopping Centre - 2km",
-      "Kitengela Town - 6km",
-      "Nairobi Road - 3km",
-      "Schools & Hospitals - 3km",
-      "Public Transport - 1km"
     ]
   },
   {
@@ -132,13 +104,6 @@ const properties = [
       "Balance in 12 months",
       "Planned Community",
       "University Proximity"
-    ],
-    nearbyInfrastructure: [
-      "Kampala University - 500m",
-      "KAG Church - 1km",
-      "Kitengela Town - 5km",
-      "Schools & Hospitals - 2km",
-      "Shopping Centers - 1.5km"
     ]
   },
   {
@@ -158,13 +123,6 @@ const properties = [
       "Balance in 3 months",
       "Shopping Centre Proximity",
       "High Foot Traffic"
-    ],
-    nearbyInfrastructure: [
-      "Lucky Base Shopping Centre - Adjacent",
-      "KAG Church - 100m",
-      "Kitengela Town - 3km",
-      "Athi River - 8km",
-      "Nairobi CBD - 35km"
     ]
   },
   {
@@ -184,13 +142,6 @@ const properties = [
       "Balance in 3 months",
       "Planned Community",
       "University Proximity"
-    ],
-    nearbyInfrastructure: [
-      "Kampala University - 500m",
-      "KAG Church - 1km",
-      "Kitengela Town - 5km",
-      "Schools & Hospitals - 2km",
-      "Shopping Centers - 1.5km"
     ]
   },
 ];
@@ -308,21 +259,6 @@ const PropertyDetails = () => {
                 </div>
               </div>
 
-              {/* Nearby Infrastructure */}
-              <div>
-                <h2 className="text-2xl font-bold mb-4">Nearby Infrastructure</h2>
-                <div className="space-y-3">
-                  {property.nearbyInfrastructure.map((item, index) => (
-                    <div
-                      key={index}
-                      className="flex items-start gap-3 p-4 rounded-lg border border-border hover:border-primary transition-colors"
-                    >
-                      <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">{item}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
 
             {/* Sidebar - Contact Agent */}
