@@ -79,8 +79,8 @@ export const AboutSection = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  { label: "Properties Sold", value: "+500" },
-                  { label: "Happy Clients", value: "150" },
+                  { label: "Properties Sold", value: "+115" },
+                  { label: "Happy Clients", value: "115" },
                   { label: "Locations", value: "10" },
                   { label: "Years Experience", value: "3" },
                 ].map((stat, index) => (
