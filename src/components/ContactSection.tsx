@@ -62,7 +62,7 @@ export const ContactSection = () => {
                         href="tel:+254742498498"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +254 742498498
+                        +254742 498 498
                       </a>
                       <a
                         href="https://wa.me/254742498498"
@@ -201,7 +201,7 @@ export const ContactSection = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="johndoe@example.com"
                     className="h-12"
                   />
                 </div>
