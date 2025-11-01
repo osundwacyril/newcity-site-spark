@@ -50,17 +50,6 @@ const properties = [
     balance: "Balance in 3 months"
   },
   {
-    id: "4",
-    name: "Acacia Phase 1",
-    location: "Oloika Acacia-Kitengela",
-    price: "Ksh 950,000",
-    image: kcaPhase2Commercial,
-    size: "50*100",
-    status: "Premium",
-    deposit: "Ksh 200,000",
-    balance: "Balance in 6 months"
-  },
-  {
     id: "5",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University Kitengela",

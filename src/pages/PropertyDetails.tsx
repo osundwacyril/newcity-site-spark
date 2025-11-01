@@ -69,25 +69,6 @@ const properties = [
     ]
   },
   {
-    id: "4",
-    name: "Acacia Phase 1",
-    location: "Oloika Acacia-Kitengela",
-    price: "Ksh 950,000",
-    deposit: "Ksh 200,000",
-    image: kcaCommercial,
-    size: "50*100",
-    status: "Premium",
-    description: "Premium plots in the serene Acacia area of Kitengela with excellent infrastructure",
-    amenities: [
-      "Ready Title Deeds",
-      "50*100 Plot Size",
-      "Deposit: Ksh 200,000",
-      "Balance in 6 months",
-      "Serene Environment",
-      "Excellent Infrastructure"
-    ]
-  },
-  {
     id: "5",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University Kitengela",
