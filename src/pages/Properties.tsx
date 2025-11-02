@@ -14,6 +14,7 @@ import fahariGardens from "@/assets/fahari-gardens.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import konzaView from "@/assets/konza-view.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
+import property1 from "@/assets/property-1.jpg";
 
 const properties = [
   {
@@ -48,6 +49,17 @@ const properties = [
     status: "Available",
     deposit: "Ksh 65,000",
     balance: "Balance in 3 months"
+  },
+  {
+    id: "4",
+    name: "Acacia Phase 1",
+    location: "Oloika Acacia-Kitengela",
+    price: "Ksh 950,000",
+    image: property1,
+    size: "50*100",
+    status: "Available",
+    deposit: "Ksh 200,000",
+    balance: "Balance in 6 months"
   },
   {
     id: "5",

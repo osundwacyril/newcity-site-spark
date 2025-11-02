@@ -9,6 +9,7 @@ import konzaView from "@/assets/konza-view.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kcaCommercial from "@/assets/kca-phase2-commercial.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
+import property1 from "@/assets/property-1.jpg";
 
 const properties = [
   {
@@ -66,6 +67,25 @@ const properties = [
       "Balance in 3 months",
       "University Proximity",
       "High Rental Demand"
+    ]
+  },
+  {
+    id: "4",
+    name: "Acacia Phase 1",
+    location: "Oloika Acacia-Kitengela",
+    price: "Ksh 950,000",
+    deposit: "Ksh 200,000",
+    image: property1,
+    size: "50*100",
+    status: "Available",
+    description: "Prime residential plots in Oloika with excellent infrastructure and accessibility",
+    amenities: [
+      "Ready Title Deeds",
+      "50*100 Plot Size",
+      "Deposit: Ksh 200,000",
+      "Balance in 6 months",
+      "Excellent Infrastructure",
+      "Prime Location"
     ]
   },
   {
