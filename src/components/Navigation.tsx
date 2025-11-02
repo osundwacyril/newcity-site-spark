@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/newcity-logo.jpg";
+import logo from "@/assets/newcity-logo-main.jpg";
 
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +39,7 @@ export const Navigation = () => {
             <img 
               src={logo} 
               alt="New City Real Estate Logo" 
-              className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-20 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </Link>
 

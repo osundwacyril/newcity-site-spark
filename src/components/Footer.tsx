@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
-import logo from "@/assets/newcity-logo.jpg";
+import logo from "@/assets/newcity-logo-main.jpg";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,7 +14,7 @@ export const Footer = () => {
               <img 
                 src={logo} 
                 alt="New City Real Estate Logo" 
-                className="h-16 w-auto object-contain"
+                className="h-20 w-auto object-contain"
               />
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
