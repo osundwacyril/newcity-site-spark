@@ -59,13 +59,13 @@ const properties = [
     image: kcaPhase2,
     size: "50*100",
     status: "Available",
-    description: "Prime residential plots near KCA University offering excellent investment potential",
+    description: "Prime commercial plots near KCA University offering excellent investment potential",
     amenities: [
       "Ready Title Deeds",
       "50*100 Plot Size",
       "Deposit: Ksh 65,000",
       "Balance in 3 months",
-      "University Proximity",
+      "500 meters from KCA University",
       "High Rental Demand"
     ]
   },
@@ -103,7 +103,7 @@ const properties = [
       "50*100 Plot Size",
       "Deposit: Ksh 300,000",
       "Balance in 12 months",
-      "Planned Community",
+      "1.5 KM from tarmac",
       "University Proximity"
     ]
   },
@@ -122,8 +122,8 @@ const properties = [
       "50*100 Plot Size",
       "Deposit: Ksh 300,000",
       "Balance in 3 months",
-      "Shopping Centre Proximity",
-      "High Foot Traffic"
+      "Within Lucky Base Shopping Centre",
+      "1 KM from tarmac"
     ]
   },
   {
@@ -135,13 +135,13 @@ const properties = [
     image: fahariGardens,
     size: "50*100",
     status: "Premium",
-    description: "Premium residential plots in the latest phase near Kampala University",
+    description: "Premium residential plots within KAG Kitengela",
     amenities: [
       "Ready Title Deeds",
       "50*100 Plot Size",
       "Deposit: Ksh 200,000",
       "Balance in 3 months",
-      "Planned Community",
+      "1 KM from tarmac",
       "University Proximity"
     ]
   },
