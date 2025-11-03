@@ -22,7 +22,7 @@ export const Navigation = () => {
         <div className="container mx-auto px-4 flex justify-end items-center gap-6 text-sm">
           <a href="tel:+254742498498" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Phone className="h-4 w-4" />
-            <span className="hidden sm:inline">+254 7 42498498</span>
+            <span className="hidden sm:inline">+254742 498 498</span>
           </a>
           <a href="mailto:info@newcitylands.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Mail className="h-4 w-4" />

@@ -275,7 +275,7 @@ const PropertyDetails = () => {
                     <Phone className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-xs text-muted-foreground">Call Us</p>
-                      <p className="font-semibold">+254 7 42498498</p>
+                      <p className="font-semibold">+254742 498 498</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3 p-3 rounded-lg bg-secondary/50">
