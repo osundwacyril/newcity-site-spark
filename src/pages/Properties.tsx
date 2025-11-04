@@ -30,6 +30,17 @@ const properties = [
   },
   {
     id: "2",
+    name: "Mazola 5 Milimani (Kitengela)",
+    location: "1km Off Namanga Highway",
+    price: "Ksh 2,500,000",
+    image: eserianPlains,
+    size: "40*90",
+    status: "Hot Deal",
+    deposit: "10%",
+    balance: "Balance in 3 months"
+  },
+  {
+    id: "3",
     name: "Konza View Phase 2",
     location: "Konza Town",
     price: "Ksh 500,000",
@@ -40,7 +51,18 @@ const properties = [
     balance: "Balance in 3 months"
   },
   {
-    id: "3",
+    id: "4",
+    name: "5 Acre Blocks For Sale (Kitengela)",
+    location: "Opposite Kca University Kitengela",
+    price: "Ksh 2,000,000",
+    image: kcaPhase2,
+    size: "5 Acre",
+    status: "Premium",
+    deposit: "10%",
+    balance: "Balance in 3 months"
+  },
+  {
+    id: "5",
     name: "KCA University",
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
@@ -51,7 +73,18 @@ const properties = [
     balance: "Balance in 3 months"
   },
   {
-    id: "4",
+    id: "6",
+    name: "5 Acre Blocks Opposite Keda Ceramics",
+    location: "3km From Umma University Touching Tarmac",
+    price: "Ksh 5,500,000",
+    image: kcaPhase2Commercial,
+    size: "5 Acre",
+    status: "Prime Location",
+    deposit: "10%",
+    balance: "Balance in 3 months"
+  },
+  {
+    id: "7",
     name: "Acacia Phase 1",
     location: "Oloika Acacia-Kitengela",
     price: "Ksh 950,000",
@@ -62,7 +95,18 @@ const properties = [
     balance: "Balance in 6 months"
   },
   {
-    id: "5",
+    id: "8",
+    name: "4.6 Acre Blocks For Sale",
+    location: "Touching Tarmac (Kisaju) Opposite Capital Blocks",
+    price: "Ksh 12,000,000",
+    image: kcaPhase2Commercial,
+    size: "5 Acre",
+    status: "Prime Location",
+    deposit: "10%",
+    balance: "Balance in 3 months"
+  },
+  {
+    id: "9",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University Kitengela",
     price: "Ksh 1,100,000",
@@ -73,7 +117,7 @@ const properties = [
     balance: "Balance in 12 months"
   },
   {
-    id: "6",
+    id: "10",
     name: "Lucky Gardens",
     location: "Lucky Base Shopping Centre /KAG Kitengela",
     price: "Ksh 1,300,000",
@@ -84,7 +128,7 @@ const properties = [
     balance: "Balance in 3 months"
   },
   {
-    id: "7",
+    id: "11",
     name: "Fahari Gardens Phase 3",
     location: "Kampala University Kitengela",
     price: "Ksh 1,300,000",
@@ -138,7 +182,8 @@ const Properties = () => {
       priceRange === "all" ||
       (priceRange === "low" && price < 700000) ||
       (priceRange === "medium" && price >= 700000 && price < 1200000) ||
-      (priceRange === "high" && price >= 1200000);
+      (priceRange === "high" && price >= 1200000 && price < 5000000) ||
+      (priceRange === "premium" && price >= 5000000);
     
     const matchesStatus = statusFilter === "all" || 
       property.status.toLowerCase() === statusFilter.toLowerCase();
@@ -203,7 +248,8 @@ const Properties = () => {
                       <SelectItem value="all">All Prices</SelectItem>
                       <SelectItem value="low">Under Ksh 700,000</SelectItem>
                       <SelectItem value="medium">Ksh 700,000 - 1,200,000</SelectItem>
-                      <SelectItem value="high">Above Ksh 1,200,000</SelectItem>
+                      <SelectItem value="high">Ksh 1,200,000 - 5,000,000</SelectItem>
+                      <SelectItem value="premium">Above Ksh 5,000,000</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

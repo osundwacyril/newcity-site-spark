@@ -33,6 +33,25 @@ const properties = [
   },
   {
     id: "2",
+    name: "Mazola 5 Milimani (Kitengela)",
+    location: "1km Off Namanga Highway",
+    price: "Ksh 2,500,000",
+    deposit: "10%",
+    image: eserianPlains,
+    size: "40*90",
+    status: "Hot Deal",
+    description: "Premium residential plots just 1km off Namanga Highway",
+    amenities: [
+      "Ready Title Deeds",
+      "40*90 Plot Size",
+      "Deposit: 10%",
+      "Balance in 3 months",
+      "1km Off Namanga Highway",
+      "Excellent Accessibility"
+    ]
+  },
+  {
+    id: "3",
     name: "Konza View Phase 2",
     location: "Konza Town",
     price: "Ksh 500,000",
@@ -51,7 +70,26 @@ const properties = [
     ]
   },
   {
-    id: "3",
+    id: "4",
+    name: "5 Acre Blocks For Sale (Kitengela)",
+    location: "Opposite Kca University Kitengela",
+    price: "Ksh 2,000,000",
+    deposit: "10%",
+    image: kcaPhase2,
+    size: "5 Acre",
+    status: "Premium",
+    description: "Prime 5-acre blocks opposite KCA University with excellent investment potential",
+    amenities: [
+      "Ready Title Deeds",
+      "5 Acre Blocks",
+      "Price Per Acre",
+      "Deposit: 10%",
+      "Balance in 3 months",
+      "Opposite KCA University"
+    ]
+  },
+  {
+    id: "5",
     name: "KCA University",
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
@@ -70,7 +108,26 @@ const properties = [
     ]
   },
   {
-    id: "4",
+    id: "6",
+    name: "5 Acre Blocks Opposite Keda Ceramics",
+    location: "3km From Umma University Touching Tarmac",
+    price: "Ksh 5,500,000",
+    deposit: "10%",
+    image: kcaCommercial,
+    size: "5 Acre",
+    status: "Prime Location",
+    description: "Exclusive 5-acre blocks touching tarmac, 3km from Umma University",
+    amenities: [
+      "Ready Title Deeds",
+      "5 Acre Blocks",
+      "Price Per Acre",
+      "Deposit: 10%",
+      "Balance in 3 months",
+      "Touching Tarmac"
+    ]
+  },
+  {
+    id: "7",
     name: "Acacia Phase 1",
     location: "Oloika Acacia-Kitengela",
     price: "Ksh 950,000",
@@ -89,7 +146,26 @@ const properties = [
     ]
   },
   {
-    id: "5",
+    id: "8",
+    name: "4.6 Acre Blocks For Sale",
+    location: "Touching Tarmac (Kisaju) Opposite Capital Blocks",
+    price: "Ksh 12,000,000",
+    deposit: "10%",
+    image: kcaCommercial,
+    size: "5 Acre",
+    status: "Prime Location",
+    description: "Premium 4.6-acre blocks in Kisaju, touching tarmac opposite Capital Blocks",
+    amenities: [
+      "Ready Title Deeds",
+      "4.6 Acre Blocks",
+      "Price Per Acre",
+      "Deposit: 10%",
+      "Balance in 3 months",
+      "Touching Tarmac"
+    ]
+  },
+  {
+    id: "9",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University Kitengela",
     price: "Ksh 1,100,000",
@@ -108,7 +184,7 @@ const properties = [
     ]
   },
   {
-    id: "6",
+    id: "10",
     name: "Lucky Gardens",
     location: "Lucky Base Shopping Centre /KAG Kitengela",
     price: "Ksh 1,300,000",
@@ -127,7 +203,7 @@ const properties = [
     ]
   },
   {
-    id: "7",
+    id: "11",
     name: "Fahari Gardens Phase 3",
     location: "Kampala University Kitengela",
     price: "Ksh 1,300,000",

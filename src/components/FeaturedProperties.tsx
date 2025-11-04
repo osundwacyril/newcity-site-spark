@@ -7,7 +7,7 @@ import konzaView from "@/assets/konza-view.jpg";
 
 const properties = [
   {
-    id: "2",
+    id: "3",
     name: "Konza View Phase 2",
     location: "Konza Town",
     price: "Ksh 500,000",
@@ -16,7 +16,7 @@ const properties = [
     status: "Hot Deal",
   },
   {
-    id: "3",
+    id: "5",
     name: "KCA University",
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
@@ -25,7 +25,7 @@ const properties = [
     status: "Available",
   },
   {
-    id: "5",
+    id: "9",
     name: "Fahari Gardens Phase 2",
     location: "Kampala University Kitengela",
     price: "Ksh 1,100,000",
