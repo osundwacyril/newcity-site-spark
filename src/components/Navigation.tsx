@@ -10,6 +10,7 @@ export const Navigation = () => {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Properties", href: "/properties" },
+    { name: "Gallery", href: "/gallery" },
     { name: "Blog", href: "/blog" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
