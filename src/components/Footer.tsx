@@ -1,4 +1,6 @@
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import { Icon } from "lucide-react";
+import { Music2 } from "lucide-react";
 import logo from "@/assets/newcity-logo-main.jpg";
 
 export const Footer = () => {
@@ -57,6 +59,15 @@ export const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
+              </a>
+              <a
+                href="https://tiktok.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="TikTok"
+              >
+                <Music2 className="h-5 w-5" />
               </a>
             </div>
           </div>
