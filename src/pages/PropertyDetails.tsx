@@ -205,7 +205,7 @@ const properties = [
   {
     id: "11",
     name: "Fahari Gardens Phase 3",
-    location: "Kampala University Kitengela",
+    location: "Within KAG University",
     price: "Ksh 1,300,000",
     deposit: "Ksh 200,000",
     image: fahariGardens,
