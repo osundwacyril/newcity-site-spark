@@ -3,6 +3,13 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { MapPin, Ruler, TrendingUp, Phone, Mail, ArrowLeft, CheckCircle2 } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
 import konzaView from "@/assets/konza-view.jpg";
@@ -10,6 +17,9 @@ import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kcaCommercial from "@/assets/kca-phase2-commercial.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
+import fahariPhase3_1 from "@/assets/fahari-phase3-1.jpg";
+import fahariPhase3_2 from "@/assets/fahari-phase3-2.jpg";
+import fahariPhase3_3 from "@/assets/fahari-phase3-3.jpg";
 
 const properties = [
   {
@@ -208,7 +218,8 @@ const properties = [
     location: "Within KAG University",
     price: "Ksh 1,300,000",
     deposit: "Ksh 200,000",
-    image: fahariGardens,
+    image: fahariPhase3_1,
+    images: [fahariPhase3_1, fahariPhase3_2, fahariPhase3_3],
     size: "50*100",
     status: "Premium",
     description: "Premium residential plots within KAG Kitengela",
@@ -261,18 +272,43 @@ const PropertyDetails = () => {
           </Link>
         </div>
 
-        {/* Hero Image */}
+        {/* Hero Image/Carousel */}
         <div className="container mx-auto px-4 pb-12">
-          <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
-            <img
-              src={property.image}
-              alt={property.name}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute top-6 right-6 bg-primary text-primary-foreground px-4 py-2 rounded-full font-semibold shadow-lg">
-              {property.status}
+          {property.images && property.images.length > 1 ? (
+            <Carousel className="w-full">
+              <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
+                <CarouselContent>
+                  {property.images.map((img, index) => (
+                    <CarouselItem key={index}>
+                      <div className="relative h-[500px]">
+                        <img
+                          src={img}
+                          alt={`${property.name} - Image ${index + 1}`}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <div className="absolute top-6 right-6 bg-primary text-primary-foreground px-4 py-2 rounded-full font-semibold shadow-lg z-10">
+                  {property.status}
+                </div>
+                <CarouselPrevious className="left-4" />
+                <CarouselNext className="right-4" />
+              </div>
+            </Carousel>
+          ) : (
+            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
+              <img
+                src={property.image}
+                alt={property.name}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute top-6 right-6 bg-primary text-primary-foreground px-4 py-2 rounded-full font-semibold shadow-lg">
+                {property.status}
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* Property Details */}
