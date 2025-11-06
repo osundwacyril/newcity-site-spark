@@ -20,6 +20,12 @@ import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
 import fahariPhase3_1 from "@/assets/fahari-phase3-1.jpg";
 import fahariPhase3_2 from "@/assets/fahari-phase3-2.jpg";
 import fahariPhase3_3 from "@/assets/fahari-phase3-3.jpg";
+import kca1 from "@/assets/kca-1.jpg";
+import kca2 from "@/assets/kca-2.jpg";
+import kca3 from "@/assets/kca-3.jpg";
+import kca4 from "@/assets/kca-4.jpg";
+import kca5 from "@/assets/kca-5.jpg";
+import kca6 from "@/assets/kca-6.jpg";
 
 const properties = [
   {
@@ -104,7 +110,8 @@ const properties = [
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
     deposit: "Ksh 65,000",
-    image: kcaPhase2,
+    image: kca1,
+    images: [kca1, kca2, kca3, kca4, kca5, kca6],
     size: "50*100",
     status: "Available",
     description: "Prime commercial plots near KCA University offering excellent investment potential",
