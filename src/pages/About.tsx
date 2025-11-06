@@ -28,7 +28,7 @@ const About = () => {
       photo: samuelPhoto,
     },
     {
-      name: "Veronica",
+      name: "Veronicah Wamaitha",
       role: "Sales Agent",
       bio: "Specialized in property sales management and client relations",
       photo: veronicaPhoto,
