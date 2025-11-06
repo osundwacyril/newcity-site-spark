@@ -180,7 +180,7 @@ const properties = [
     location: "Kampala University Kitengela",
     price: "Ksh 1,100,000",
     deposit: "Ksh 300,000",
-    image: fahariGardens,
+    image: fahariPhase3_2,
     size: "50*100",
     status: "Premium",
     description: "Beautiful residential plots near Kampala University in a planned community",
