@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { InquiryFormModal } from "@/components/InquiryFormModal";
 import { MapPin, Ruler, TrendingUp, Phone, Mail, ArrowLeft, CheckCircle2 } from "lucide-react";
 import {
   Carousel,
@@ -416,14 +417,15 @@ const PropertyDetails = () => {
                 </div>
 
                 <div className="space-y-3">
-                  <Button variant="accent-red" className="w-full" asChild>
-                    <a href="tel:0742498498">Inquire Now</a>
+                  <InquiryFormModal 
+                    propertyName={property.name}
+                    propertyId={property.id}
+                  />
+                  <Button variant="outline" className="w-full" asChild>
+                    <a href="tel:0742498498">Call Agent</a>
                   </Button>
                   <Button variant="outline" className="w-full" asChild>
-                    <a href="https://wa.me/254742498498" target="_blank" rel="noopener noreferrer">Schedule Site Visit</a>
-                  </Button>
-                  <Button variant="outline" className="w-full" asChild>
-                    <a href="https://wa.me/2547424984984" target="_blank" rel="noopener noreferrer">WhatsApp Agent</a>
+                    <a href="https://wa.me/254742498498" target="_blank" rel="noopener noreferrer">WhatsApp Agent</a>
                   </Button>
                 </div>
               </div>
