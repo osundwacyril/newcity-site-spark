@@ -24,7 +24,7 @@ const About = () => {
     {
       name: "Samuel Mwangi",
       role: "Sales and Property Manager",
-      bio: "Expert in property sales with a track record of 100+ successful transactions",
+      bio: "Expert in property sales with a track record of successful transactions",
       photo: samuelPhoto,
     },
     {
