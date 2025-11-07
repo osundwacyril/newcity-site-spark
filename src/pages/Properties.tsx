@@ -12,6 +12,7 @@ import luckyGardens from "@/assets/lucky-gardens.jpg";
 import kcaPhase2Commercial from "@/assets/kca-phase2-commercial.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
+import kca1 from "@/assets/kca-1.jpg";
 import konzaView from "@/assets/konza-view.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
@@ -66,7 +67,7 @@ const properties = [
     name: "KCA University",
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
-    image: kcaPhase2,
+    image: kca1,
     size: "50*100",
     status: "Available",
     deposit: "Ksh 65,000",
