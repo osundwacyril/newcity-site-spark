@@ -26,6 +26,9 @@ import kca3 from "@/assets/kca-3.jpg";
 import kca4 from "@/assets/kca-4.jpg";
 import kca5 from "@/assets/kca-5.jpg";
 import kca6 from "@/assets/kca-6.jpg";
+import lucky1 from "@/assets/lucky-1.jpg";
+import lucky2 from "@/assets/lucky-2.jpg";
+import lucky3 from "@/assets/lucky-3.jpg";
 
 const properties = [
   {
@@ -206,7 +209,8 @@ const properties = [
     location: "Lucky Base Shopping Centre /KAG Kitengela",
     price: "Ksh 1,300,000",
     deposit: "Ksh 300,000",
-    image: luckyGardens,
+    image: lucky1,
+    images: [lucky1, lucky2, lucky3],
     size: "50*100",
     status: "Hot Deal",
     description: "Prime commercial plots at Lucky Base Shopping Centre with high foot traffic",
