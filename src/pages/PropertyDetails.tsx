@@ -29,6 +29,10 @@ import kca6 from "@/assets/kca-6.jpg";
 import lucky1 from "@/assets/lucky-1.jpg";
 import lucky2 from "@/assets/lucky-2.jpg";
 import lucky3 from "@/assets/lucky-3.jpg";
+import fahariPhase2_1 from "@/assets/fahari-phase2-1.jpg";
+import fahariPhase2_2 from "@/assets/fahari-phase2-2.jpg";
+import fahariPhase2_3 from "@/assets/fahari-phase2-3.jpg";
+import fahariPhase2_4 from "@/assets/fahari-phase2-4.jpg";
 
 const properties = [
   {
@@ -190,7 +194,8 @@ const properties = [
     location: "Kampala University Kitengela",
     price: "Ksh 1,100,000",
     deposit: "Ksh 300,000",
-    image: fahariPhase3_2,
+    image: fahariPhase2_1,
+    images: [fahariPhase2_1, fahariPhase2_2, fahariPhase2_3, fahariPhase2_4],
     size: "50*100",
     status: "Premium",
     description: "Beautiful residential plots near Kampala University in a planned community",
