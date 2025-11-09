@@ -11,6 +11,8 @@ interface PropertyCardProps {
   image: string;
   size: string;
   status: string;
+  remaining?: number;
+  totalPlots?: number;
 }
 
 export const PropertyCard = ({
@@ -21,6 +23,8 @@ export const PropertyCard = ({
   image,
   size,
   status,
+  remaining,
+  totalPlots,
 }: PropertyCardProps) => {
   return (
     <Card className="group overflow-hidden border-border shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:-translate-y-2">
@@ -57,9 +61,16 @@ export const PropertyCard = ({
           </div>
         </div>
 
-        <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
-          <TrendingUp className="h-4 w-4 text-accent" />
-          <span>High appreciation potential</span>
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <TrendingUp className="h-4 w-4 text-accent" />
+            <span>High appreciation potential</span>
+          </div>
+          {remaining !== undefined && totalPlots !== undefined && (
+            <div className="text-sm font-semibold text-accent-red">
+              {remaining} of {totalPlots} remaining
+            </div>
+          )}
         </div>
       </CardContent>
 

@@ -28,7 +28,9 @@ const properties = [
     size: "50*100",
     status: "Available",
     deposit: "Ksh 35,000",
-    balance: "Balance in 12 months"
+    balance: "Balance in 12 months",
+    remaining: 25,
+    totalPlots: 60,
   },
   {
     id: "2",
@@ -39,7 +41,9 @@ const properties = [
     size: "40*90",
     status: "Hot Deal",
     deposit: "10%",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 3,
+    totalPlots: 20,
   },
   {
     id: "3",
@@ -50,7 +54,9 @@ const properties = [
     size: "50*100",
     status: "Hot Deal",
     deposit: "Ksh 150,000",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 8,
+    totalPlots: 30,
   },
   {
     id: "4",
@@ -61,7 +67,9 @@ const properties = [
     size: "5 Acre",
     status: "Premium",
     deposit: "10%",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 6,
+    totalPlots: 10,
   },
   {
     id: "5",
@@ -72,7 +80,9 @@ const properties = [
     size: "50*100",
     status: "Available",
     deposit: "Ksh 65,000",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 15,
+    totalPlots: 50,
   },
   {
     id: "6",
@@ -83,7 +93,9 @@ const properties = [
     size: "5 Acre",
     status: "Prime Location",
     deposit: "10%",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 4,
+    totalPlots: 8,
   },
   {
     id: "7",
@@ -94,7 +106,9 @@ const properties = [
     size: "50*100",
     status: "Available",
     deposit: "Ksh 200,000",
-    balance: "Balance in 6 months"
+    balance: "Balance in 6 months",
+    remaining: 18,
+    totalPlots: 45,
   },
   {
     id: "8",
@@ -105,7 +119,9 @@ const properties = [
     size: "5 Acre",
     status: "Prime Location",
     deposit: "10%",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 2,
+    totalPlots: 5,
   },
   {
     id: "9",
@@ -116,7 +132,9 @@ const properties = [
     size: "50*100",
     status: "Premium",
     deposit: "Ksh 300,000",
-    balance: "Balance in 12 months"
+    balance: "Balance in 12 months",
+    remaining: 12,
+    totalPlots: 40,
   },
   {
     id: "10",
@@ -127,7 +145,9 @@ const properties = [
     size: "50*100",
     status: "Hot Deal",
     deposit: "Ksh 300,000",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 5,
+    totalPlots: 35,
   },
   {
     id: "11",
@@ -138,7 +158,9 @@ const properties = [
     size: "50*100",
     status: "Premium",
     deposit: "Ksh 200,000",
-    balance: "Balance in 3 months"
+    balance: "Balance in 3 months",
+    remaining: 10,
+    totalPlots: 38,
   },
 ];
 

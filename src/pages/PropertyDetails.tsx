@@ -45,6 +45,8 @@ const properties = [
     image: eserianPlains,
     size: "50*100",
     status: "Available",
+    remaining: 25,
+    totalPlots: 60,
     description: "Prime residential plots near KCA University with ready title deeds",
     amenities: [
       "Ready Title Deeds",
@@ -64,6 +66,8 @@ const properties = [
     image: eserianPlains,
     size: "40*80",
     status: "Hot Deal",
+    remaining: 3,
+    totalPlots: 20,
     description: "Premium residential plots just 1km off Namanga Highway",
     amenities: [
       "Ready Title Deeds",
@@ -83,6 +87,8 @@ const properties = [
     image: konzaView,
     size: "50*100",
     status: "Hot Deal",
+    remaining: 8,
+    totalPlots: 30,
     description: "Affordable residential plots with stunning views of the Konza Technopolis",
     amenities: [
       "Ready Title Deeds",
@@ -102,6 +108,8 @@ const properties = [
     image: kcaPhase2,
     size: "5 Acre",
     status: "Premium",
+    remaining: 6,
+    totalPlots: 10,
     description: "Prime 5-acre blocks opposite KCA University with excellent investment potential",
     amenities: [
       "Ready Title Deeds",
@@ -122,6 +130,8 @@ const properties = [
     images: [kca1, kca2, kca3, kca4, kca5, kca6],
     size: "50*100",
     status: "Available",
+    remaining: 15,
+    totalPlots: 50,
     description: "Prime commercial plots near KCA University offering excellent investment potential",
     amenities: [
       "Ready Title Deeds",
@@ -141,6 +151,8 @@ const properties = [
     image: kcaCommercial,
     size: "5 Acre",
     status: "Prime Location",
+    remaining: 4,
+    totalPlots: 8,
     description: "Exclusive 5-acre blocks touching tarmac, 3km from Umma University",
     amenities: [
       "Ready Title Deeds",
@@ -160,6 +172,8 @@ const properties = [
     image: acaciaPhase1,
     size: "50*100",
     status: "Available",
+    remaining: 18,
+    totalPlots: 45,
     description: "Prime residential plots in Oloika with excellent infrastructure and accessibility",
     amenities: [
       "Ready Title Deeds",
@@ -179,6 +193,8 @@ const properties = [
     image: kcaCommercial,
     size: "5 Acre",
     status: "Prime Location",
+    remaining: 2,
+    totalPlots: 5,
     description: "Premium 4.6-acre blocks in Kisaju, touching tarmac opposite Capital Blocks",
     amenities: [
       "Ready Title Deeds",
@@ -199,6 +215,8 @@ const properties = [
     images: [fahariPhase2_1, fahariPhase2_2, fahariPhase2_3, fahariPhase2_4],
     size: "50*100",
     status: "Premium",
+    remaining: 12,
+    totalPlots: 40,
     description: "Beautiful residential plots near Kampala University in a planned community",
     amenities: [
       "Ready Title Deeds",
@@ -219,6 +237,8 @@ const properties = [
     images: [lucky1, lucky2, lucky3],
     size: "50*100",
     status: "Hot Deal",
+    remaining: 5,
+    totalPlots: 35,
     description: "Prime commercial plots at Lucky Base Shopping Centre with high foot traffic",
     amenities: [
       "Ready Title Deeds",
@@ -239,6 +259,8 @@ const properties = [
     images: [fahariPhase3_1, fahariPhase3_2, fahariPhase3_3],
     size: "50*100",
     status: "Premium",
+    remaining: 10,
+    totalPlots: 38,
     description: "Premium residential plots within KAG Kitengela",
     amenities: [
       "Ready Title Deeds",
@@ -358,6 +380,14 @@ const PropertyDetails = () => {
                     <p className="text-sm text-muted-foreground">Deposit</p>
                     <p className="text-xl font-semibold text-foreground">{property.deposit}</p>
                   </div>
+                  {property.remaining !== undefined && property.totalPlots !== undefined && (
+                    <div>
+                      <p className="text-sm text-muted-foreground">Availability</p>
+                      <p className="text-xl font-semibold text-accent-red">
+                        {property.remaining} of {property.totalPlots} remaining
+                      </p>
+                    </div>
+                  )}
                 </div>
                 <div className="flex items-center gap-2 text-accent mb-8">
                   <TrendingUp className="h-5 w-5" />
