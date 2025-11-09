@@ -11,6 +11,7 @@ import { Search, X } from "lucide-react";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import kcaPhase2Commercial from "@/assets/kca-phase2-commercial.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
+import fahariPhase3 from "@/assets/fahari-phase3.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kca1 from "@/assets/kca-1.jpg";
 import konzaView from "@/assets/konza-view.jpg";
@@ -133,7 +134,7 @@ const properties = [
     name: "Fahari Gardens Phase 3",
     location: "Kampala University Kitengela",
     price: "Ksh 1,300,000",
-    image: fahariGardens,
+    image: fahariPhase3,
     size: "50*100",
     status: "Premium",
     deposit: "Ksh 200,000",
