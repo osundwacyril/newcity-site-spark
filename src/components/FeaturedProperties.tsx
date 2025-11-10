@@ -14,8 +14,6 @@ const properties = [
     image: konzaView,
     size: "50*100",
     status: "Hot Deal",
-    remaining: 8,
-    totalPlots: 30,
   },
   {
     id: "5",
@@ -25,8 +23,6 @@ const properties = [
     image: kca1,
     size: "50*100",
     status: "Available",
-    remaining: 15,
-    totalPlots: 50,
   },
   {
     id: "9",
@@ -36,8 +32,6 @@ const properties = [
     image: fahariGardens,
     size: "50*100",
     status: "Premium",
-    remaining: 12,
-    totalPlots: 40,
   },
 ];
 
