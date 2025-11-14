@@ -164,7 +164,7 @@ const Landing = () => {
                   1
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-secondary-foreground">Transfer Deposit</h3>
-                <p className="text-sm md:text-base text-secondary-foreground/80">Transfer the <strong>Kshs 35,000</strong> refundable reservation deposit using the banking details below.</p>
+                <p className="text-sm md:text-base text-secondary-foreground/80">Transfer the <strong>Kshs 65,000</strong> refundable reservation deposit using the banking details below.</p>
               </div>
 
               <div className="relative pt-12 md:pt-16">
@@ -180,7 +180,7 @@ const Landing = () => {
                   3
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3 text-secondary-foreground">Finalize Purchase</h3>
-                <p className="text-sm md:text-base text-secondary-foreground/80">We confirm your plot and guide you through the remaining <strong>Kshs 315,000</strong> balance payment to secure your title.</p>
+                <p className="text-sm md:text-base text-secondary-foreground/80">We confirm your plot and guide you through the remaining <strong>Kshs 585,000</strong> balance payment to secure your title.</p>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ const Landing = () => {
         <section id="deposit-form" className="py-10 sm:py-12 md:py-20 bg-muted">
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
             <div className="bg-card p-6 md:p-8 lg:p-12 rounded-xl shadow-2xl border-t-8 border-[hsl(var(--accent-red))]">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-3 md:mb-4 text-center">Deposit: Kshs 35,000 to Reserve Your Plot</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-3 md:mb-4 text-center">Deposit: Kshs 65,000 to Reserve Your Plot</h2>
               <p className="text-center text-sm sm:text-base md:text-lg text-muted-foreground mb-6 md:mb-8">
                 Transfer your deposit directly to the agency account below. Once the transfer is complete, please contact us with the confirmation to finalize your reservation.
               </p>
@@ -250,7 +250,7 @@ const Landing = () => {
         <section className="py-5 sm:py-6 md:py-8 bg-card border-t border-border text-center">
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <p className="text-sm md:text-base text-muted-foreground">
-              <strong className="text-foreground">Total Project Price: Kshs 350,000</strong> | Deposit: Kshs 35,000
+              <strong className="text-foreground">Total Project Price: Kshs 650,000</strong> | Deposit: Kshs 65,000
             </p>
           </div>
         </section>
