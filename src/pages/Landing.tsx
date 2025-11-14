@@ -1,7 +1,9 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { CheckCircle, MapPin, Users, TrendingUp, Home, Shield, Banknote, Hash, Landmark, MessageSquare } from "lucide-react";
+import { CheckCircle, MapPin, Users, TrendingUp, Home, Shield, Banknote, Hash, Landmark, MessageSquare, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import catalogueImage from "@/assets/catalogue.jpg";
+import grandOpeningImage from "@/assets/university-view-grand-opening.jpg";
 
 const Landing = () => {
   return (
@@ -9,34 +11,98 @@ const Landing = () => {
       <Navigation />
       
       <main className="pt-[100px] sm:pt-[120px]">
-        {/* Hero Section */}
+        {/* Hero Section - Grand Opening */}
         <section className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground py-10 sm:py-12 md:py-20">
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
               <div className="space-y-4 sm:space-y-5 md:space-y-6 text-center md:text-left">
-                <span className="inline-block bg-[hsl(var(--accent-red))] text-accent-red-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider shadow-[var(--shadow-red-glow)]">
-                  Limited Plots at Only Kshs 350,000!
+                <span className="inline-block bg-[hsl(var(--accent-red))] text-accent-red-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider shadow-[var(--shadow-red-glow)] animate-pulse">
+                  🎉 Grand Opening - Nov 22, 2025
                 </span>
                 <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-                  Secure Your Financial Future. Reserve Your Prime Land Plot Now.
+                  University View Estate - Now Open!
                 </h1>
                 <p className="text-sm xs:text-base sm:text-lg md:text-xl text-primary-foreground/90">
-                  The fastest way to secure your investment is by making the direct deposit.
+                  500 Meters to KCA University, Kitengela. Prime plots starting at Kshs 650,000 with flexible payment plans.
                 </p>
-                <a href="#deposit-form" className="block">
-                  <Button size="lg" variant="default" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto bg-[hsl(var(--accent-red))] hover:bg-[hsl(var(--accent-red))]/90 shadow-[var(--shadow-red-glow)]">
-                    View Payment Details for Kshs 35,000 Deposit
-                  </Button>
-                </a>
-                <p className="text-[10px] xs:text-xs sm:text-sm text-primary-foreground/80 mt-2">100% Refundable Deposit. Act Fast.</p>
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                  <a href="#catalogue" className="block">
+                    <Button size="lg" variant="default" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto bg-[hsl(var(--accent-red))] hover:bg-[hsl(var(--accent-red))]/90 shadow-[var(--shadow-red-glow)]">
+                      View All Properties
+                    </Button>
+                  </a>
+                  <a href="#deposit-form" className="block">
+                    <Button size="lg" variant="outline" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                      Reserve Your Plot
+                    </Button>
+                  </a>
+                </div>
               </div>
 
-              <div className="hidden md:block">
+              <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80" 
-                  alt="Premium land development" 
-                  className="w-full h-96 object-cover rounded-xl shadow-2xl"
+                  src={grandOpeningImage}
+                  alt="University View Estate Grand Opening" 
+                  className="w-full h-auto object-cover rounded-xl shadow-2xl"
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Properties Catalogue Section */}
+        <section id="catalogue" className="py-10 sm:py-12 md:py-20 bg-muted">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div className="text-center mb-8 md:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-3 md:mb-4">
+                Our Property Catalogue
+              </h2>
+              <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
+                Explore our range of prime properties with flexible payment plans
+              </p>
+            </div>
+
+            <div className="grid gap-6 md:gap-8">
+              {/* Featured Catalogue Image */}
+              <div className="bg-card rounded-xl shadow-xl overflow-hidden border-2 border-primary/20">
+                <img 
+                  src={catalogueImage}
+                  alt="New City Properties Catalogue" 
+                  className="w-full h-auto"
+                />
+              </div>
+
+              {/* Key Highlights */}
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <div className="bg-green-50 dark:bg-green-950/20 border-2 border-green-500 p-4 md:p-6 rounded-xl">
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-2 flex items-center gap-2">
+                    <Home className="w-5 h-5 text-green-600" />
+                    Multiple Locations
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground">
+                    From Kitengela to Konza, choose from prime locations near major institutions
+                  </p>
+                </div>
+
+                <div className="bg-red-50 dark:bg-red-950/20 border-2 border-[hsl(var(--accent-red))] p-4 md:p-6 rounded-xl">
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-2 flex items-center gap-2">
+                    <TrendingUp className="w-5 h-5 text-[hsl(var(--accent-red))]" />
+                    Flexible Plans
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground">
+                    Low deposits from 10% with balance payable in 3-12 months
+                  </p>
+                </div>
+
+                <div className="bg-primary/5 border-2 border-primary p-4 md:p-6 rounded-xl sm:col-span-2 lg:col-span-1">
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-2 flex items-center gap-2">
+                    <Shield className="w-5 h-5 text-primary" />
+                    Secure Titles
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground">
+                    All properties come with clean, verifiable land titles
+                  </p>
+                </div>
               </div>
             </div>
           </div>
