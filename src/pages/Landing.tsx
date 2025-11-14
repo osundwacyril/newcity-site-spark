@@ -31,11 +31,11 @@ const Landing = () => {
                       View All Properties
                     </Button>
                   </a>
-                  <a href="#deposit-form" className="block">
-                    <Button size="lg" variant="outline" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                      Reserve Your Plot
-                    </Button>
-                  </a>
+                <a href="#deposit-form" className="block">
+                  <Button size="lg" variant="secondary" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto">
+                    Reserve Your Plot
+                  </Button>
+                </a>
                 </div>
               </div>
 
