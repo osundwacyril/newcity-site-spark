@@ -65,6 +65,11 @@ export const Navigation = () => {
                 </a>
               )
             ))}
+            <Link to="/landing">
+              <Button variant="default" size="default" className="ml-4">
+                Book Land
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,6 +107,11 @@ export const Navigation = () => {
                   </a>
                 )
               ))}
+              <Link to="/landing" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="default" size="default" className="w-full mt-2">
+                  Book Land
+                </Button>
+              </Link>
             </div>
           </div>
         )}

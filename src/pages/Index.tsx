@@ -6,6 +6,8 @@ import { AboutSection } from "@/components/AboutSection";
 import { Testimonials } from "@/components/Testimonials";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -13,6 +15,13 @@ const Index = () => {
       <Navigation />
       <main className="pt-[120px]">
         <HeroCarousel />
+        <div className="container mx-auto px-4 py-8 flex justify-center">
+          <Link to="/landing">
+            <Button size="lg" variant="default" className="text-lg px-8 py-6">
+              Book Land Now
+            </Button>
+          </Link>
+        </div>
         <PropertySearch />
         <FeaturedProperties />
         <AboutSection />
