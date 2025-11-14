@@ -14,7 +14,7 @@ const Landing = () => {
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
               <div className="space-y-4 sm:space-y-5 md:space-y-6 text-center md:text-left">
-                <span className="inline-block bg-accent text-accent-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider">
+                <span className="inline-block bg-[hsl(var(--accent-red))] text-accent-red-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider shadow-[var(--shadow-red-glow)]">
                   Limited Plots at Only Kshs 350,000!
                 </span>
                 <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
@@ -24,7 +24,7 @@ const Landing = () => {
                   The fastest way to secure your investment is by making the direct deposit.
                 </p>
                 <a href="#deposit-form" className="block">
-                  <Button size="lg" variant="default" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto">
+                  <Button size="lg" variant="default" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto bg-[hsl(var(--accent-red))] hover:bg-[hsl(var(--accent-red))]/90 shadow-[var(--shadow-red-glow)]">
                     View Payment Details for Kshs 35,000 Deposit
                   </Button>
                 </a>
@@ -47,7 +47,7 @@ const Landing = () => {
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <div className="flex flex-wrap justify-around items-center gap-4 sm:gap-6 md:gap-8">
               <div className="flex flex-col items-center text-center">
-                <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-green-500 mb-1 sm:mb-2" />
+                <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[hsl(var(--accent-red))] mb-1 sm:mb-2" />
                 <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">Clear Title</p>
               </div>
               <div className="flex flex-col items-center text-center">
@@ -55,7 +55,7 @@ const Landing = () => {
                 <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">Prime Location</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Users className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-accent mb-1 sm:mb-2" />
+                <Users className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[hsl(var(--accent-red))] mb-1 sm:mb-2" />
                 <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">1000+ Happy Owners</p>
               </div>
             </div>
@@ -79,8 +79,8 @@ const Landing = () => {
                 <p className="text-sm md:text-base text-muted-foreground">Paved access roads, immediate utility connections, and secured fencing. Start building your dream home sooner.</p>
               </div>
 
-              <div className="bg-card p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-accent sm:col-span-2 md:col-span-1">
-                <Shield className="w-10 h-10 md:w-12 md:h-12 text-accent mb-3 md:mb-4 mx-auto" />
+              <div className="bg-card p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-[hsl(var(--accent-red))] sm:col-span-2 md:col-span-1">
+                <Shield className="w-10 h-10 md:w-12 md:h-12 text-[hsl(var(--accent-red))] mb-3 md:mb-4 mx-auto" />
                 <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-foreground">Secure & Verifiable Title</h3>
                 <p className="text-sm md:text-base text-muted-foreground">Full legal audit completed. Your deposit secures a plot with a guaranteed, unencumbered land title.</p>
               </div>
@@ -123,7 +123,7 @@ const Landing = () => {
         {/* Deposit Details - Main Conversion Point */}
         <section id="deposit-form" className="py-10 sm:py-12 md:py-20 bg-muted">
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-            <div className="bg-card p-6 md:p-8 lg:p-12 rounded-xl shadow-2xl border-t-8 border-accent">
+            <div className="bg-card p-6 md:p-8 lg:p-12 rounded-xl shadow-2xl border-t-8 border-[hsl(var(--accent-red))]">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-3 md:mb-4 text-center">Deposit: Kshs 35,000 to Reserve Your Plot</h2>
               <p className="text-center text-sm sm:text-base md:text-lg text-muted-foreground mb-6 md:mb-8">
                 Transfer your deposit directly to the agency account below. Once the transfer is complete, please contact us with the confirmation to finalize your reservation.
@@ -167,7 +167,7 @@ const Landing = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="lg" className="text-base sm:text-lg md:text-xl px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto">
+                  <Button size="lg" className="text-base sm:text-lg md:text-xl px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto bg-[hsl(var(--accent-red))] hover:bg-[hsl(var(--accent-red))]/90 shadow-[var(--shadow-red-glow)]">
                     <MessageSquare className="w-5 h-5 md:w-6 md:h-6 mr-2 md:mr-3" />
                     I've Paid - Chat Sales Team on WhatsApp
                   </Button>
