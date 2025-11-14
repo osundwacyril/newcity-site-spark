@@ -122,7 +122,7 @@ const Landing = () => {
               </div>
               <div className="flex flex-col items-center text-center">
                 <Users className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[hsl(var(--accent-red))] mb-1 sm:mb-2" />
-                <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">1000+ Happy Owners</p>
+                <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">75+ Happy Owners</p>
               </div>
             </div>
           </div>
