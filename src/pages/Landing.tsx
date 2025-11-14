@@ -5,30 +5,30 @@ import { Button } from "@/components/ui/button";
 
 const Landing = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <Navigation />
       
-      <main className="pt-[120px]">
+      <main className="pt-[100px] sm:pt-[120px]">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground py-12 md:py-20 px-4">
-          <div className="container mx-auto max-w-6xl">
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-              <div className="space-y-4 md:space-y-6 text-center md:text-left">
-                <span className="inline-block bg-accent text-accent-foreground text-xs sm:text-sm font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-full uppercase tracking-wider">
+        <section className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground py-10 sm:py-12 md:py-20">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
+              <div className="space-y-4 sm:space-y-5 md:space-y-6 text-center md:text-left">
+                <span className="inline-block bg-accent text-accent-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider">
                   Limited Plots at Only Kshs 350,000!
                 </span>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+                <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
                   Secure Your Financial Future. Reserve Your Prime Land Plot Now.
                 </h1>
-                <p className="text-base sm:text-lg md:text-xl text-primary-foreground/90">
+                <p className="text-sm xs:text-base sm:text-lg md:text-xl text-primary-foreground/90">
                   The fastest way to secure your investment is by making the direct deposit.
                 </p>
-                <a href="#deposit-form">
-                  <Button size="lg" variant="default" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto">
+                <a href="#deposit-form" className="block">
+                  <Button size="lg" variant="default" className="text-sm xs:text-base sm:text-lg px-4 xs:px-6 sm:px-8 py-3 xs:py-4 sm:py-6 h-auto w-full sm:w-auto">
                     View Payment Details for Kshs 35,000 Deposit
                   </Button>
                 </a>
-                <p className="text-xs sm:text-sm text-primary-foreground/80 mt-2">100% Refundable Deposit. Act Fast.</p>
+                <p className="text-[10px] xs:text-xs sm:text-sm text-primary-foreground/80 mt-2">100% Refundable Deposit. Act Fast.</p>
               </div>
 
               <div className="hidden md:block">
@@ -43,28 +43,28 @@ const Landing = () => {
         </section>
 
         {/* Trust Bar */}
-        <section className="bg-card border-y border-border py-6 md:py-8">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-around items-center gap-6 md:gap-8">
+        <section className="bg-card border-y border-border py-5 sm:py-6 md:py-8">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div className="flex flex-wrap justify-around items-center gap-4 sm:gap-6 md:gap-8">
               <div className="flex flex-col items-center text-center">
-                <CheckCircle className="w-6 h-6 md:w-8 md:h-8 text-green-500 mb-2" />
-                <p className="text-xs md:text-sm font-semibold text-foreground">Clear Title</p>
+                <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-green-500 mb-1 sm:mb-2" />
+                <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">Clear Title</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <MapPin className="w-6 h-6 md:w-8 md:h-8 text-primary mb-2" />
-                <p className="text-xs md:text-sm font-semibold text-foreground">Prime Location</p>
+                <MapPin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-primary mb-1 sm:mb-2" />
+                <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">Prime Location</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Users className="w-6 h-6 md:w-8 md:h-8 text-accent mb-2" />
-                <p className="text-xs md:text-sm font-semibold text-foreground">1000+ Happy Owners</p>
+                <Users className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-accent mb-1 sm:mb-2" />
+                <p className="text-[10px] xs:text-xs md:text-sm font-semibold text-foreground">1000+ Happy Owners</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Core Benefits */}
-        <section className="py-12 md:py-20 bg-muted/30">
-          <div className="container mx-auto px-4 max-w-6xl text-center">
+        <section className="py-10 sm:py-12 md:py-20 bg-muted/30">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-8 md:mb-12">Why Invest in New City Lands Today?</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
               <div className="bg-card p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-primary">
@@ -89,8 +89,8 @@ const Landing = () => {
         </section>
 
         {/* 3-Step Process */}
-        <section className="py-12 md:py-20 bg-secondary">
-          <div className="container mx-auto px-4 max-w-6xl text-center">
+        <section className="py-10 sm:py-12 md:py-20 bg-secondary">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-secondary-foreground mb-8 md:mb-12">The 3-Step Reservation Process</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10">
               <div className="relative pt-12 md:pt-16">
@@ -121,8 +121,8 @@ const Landing = () => {
         </section>
 
         {/* Deposit Details - Main Conversion Point */}
-        <section id="deposit-form" className="py-12 md:py-20 bg-muted">
-          <div className="container mx-auto px-4 max-w-4xl">
+        <section id="deposit-form" className="py-10 sm:py-12 md:py-20 bg-muted">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
             <div className="bg-card p-6 md:p-8 lg:p-12 rounded-xl shadow-2xl border-t-8 border-accent">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-3 md:mb-4 text-center">Deposit: Kshs 35,000 to Reserve Your Plot</h2>
               <p className="text-center text-sm sm:text-base md:text-lg text-muted-foreground mb-6 md:mb-8">
@@ -181,8 +181,8 @@ const Landing = () => {
         </section>
 
         {/* Final Note */}
-        <section className="py-6 md:py-8 bg-card border-t border-border text-center">
-          <div className="container mx-auto px-4">
+        <section className="py-5 sm:py-6 md:py-8 bg-card border-t border-border text-center">
+          <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <p className="text-sm md:text-base text-muted-foreground">
               <strong className="text-foreground">Total Project Price: Kshs 350,000</strong> | Deposit: Kshs 35,000
             </p>
