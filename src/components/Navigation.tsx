@@ -33,14 +33,14 @@ export const Navigation = () => {
       </div>
 
       {/* Main navigation */}
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group mr-12">
             <img 
               src={logo} 
               alt="New City Real Estate Logo" 
-              className="h-28 w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-20 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </Link>
 
