@@ -8,7 +8,7 @@ export const GrandOpeningBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="bg-gradient-to-r from-primary via-primary-glow to-primary text-primary-foreground py-3 px-4 shadow-lg overflow-hidden animate-slide-in-right">
+    <div className="fixed top-[120px] left-0 right-0 z-40 bg-gradient-to-r from-primary via-primary-glow to-primary text-primary-foreground py-3 px-4 shadow-lg overflow-hidden animate-slide-in-right">
       <div className="container mx-auto">
         <div className="flex items-center justify-between gap-4">
           {/* Scrolling Content */}
