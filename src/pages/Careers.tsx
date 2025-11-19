@@ -32,7 +32,7 @@ const Careers = () => {
       <Navigation />
       <GrandOpeningBanner />
       
-      <main className="pt-[152px]">
+      <main className="pt-[120px]">
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-b from-primary/5 to-background">
           <div className="container mx-auto px-4">
