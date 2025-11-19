@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import { GrandOpeningBanner } from "@/components/GrandOpeningBanner";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { PropertySearch } from "@/components/PropertySearch";
 import { FeaturedProperties } from "@/components/FeaturedProperties";
@@ -13,6 +14,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
+      <GrandOpeningBanner />
       <main className="pt-[120px]">
         <HeroCarousel />
         <div className="container mx-auto px-4 py-8 flex justify-center">
