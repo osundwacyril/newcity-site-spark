@@ -13,6 +13,7 @@ export const Navigation = () => {
     { name: "Gallery", href: "/gallery" },
     { name: "Blog", href: "/blog" },
     { name: "About", href: "/about" },
+    { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
   ];
 
