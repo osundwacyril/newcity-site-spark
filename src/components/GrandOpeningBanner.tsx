@@ -17,7 +17,7 @@ export const GrandOpeningBanner = () => {
             <div className="whitespace-nowrap animate-marquee text-sm md:text-base">
               <span className="font-bold">✨ Welcome to the BIG DAY — Grand Opening of University View Estate</span>
               <span className="mx-4">|</span>
-              <span>Opening in 3 days! Hurry, only a few slots remaining!</span>
+              <span>Only 1 Day to go! Hurry, only a few slots remaining!</span>
               <span className="mx-4">|</span>
               <span>📍 Kitengela Town, opposite Kitengela Mall</span>
               <span className="mx-4">|</span>
