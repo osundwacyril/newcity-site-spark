@@ -116,7 +116,7 @@ const properties = [
   },
   {
     id: "5",
-    name: "KCA University",
+    name: "University View Estate",
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
     deposit: "Ksh 65,000",
