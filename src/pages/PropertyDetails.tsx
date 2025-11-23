@@ -27,6 +27,8 @@ import kca3 from "@/assets/kca-3.jpg";
 import kca4 from "@/assets/kca-4.jpg";
 import kca5 from "@/assets/kca-5.jpg";
 import kca6 from "@/assets/kca-6.jpg";
+import universityViewEntrance1 from "@/assets/university-view-entrance-1.jpg";
+import universityViewEntrance2 from "@/assets/university-view-entrance-2.jpg";
 import lucky1 from "@/assets/lucky-1.jpg";
 import lucky2 from "@/assets/lucky-2.jpg";
 import lucky3 from "@/assets/lucky-3.jpg";
@@ -118,8 +120,8 @@ const properties = [
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
     deposit: "Ksh 65,000",
-    image: kca1,
-    images: [kca1, kca2, kca3, kca4, kca5, kca6],
+    image: universityViewEntrance1,
+    images: [universityViewEntrance1, universityViewEntrance2, kca1, kca2, kca3, kca4, kca5, kca6],
     size: "50*100",
     status: "Available",
     description: "Prime commercial plots near KCA University offering excellent investment potential",
