@@ -15,17 +15,17 @@ export const GrandOpeningBanner = () => {
           <div className="flex items-center gap-2 flex-1 overflow-hidden">
             <Sparkles className="w-5 h-5 flex-shrink-0 animate-pulse" />
             <div className="whitespace-nowrap animate-marquee text-sm md:text-base">
-              <span className="font-bold">✨ Welcome to the BIG DAY — Grand Opening of University View Estate</span>
+              <span className="font-bold">✨New Project : University View Estate</span>
               <span className="mx-4">|</span>
-              <span>D-Day! Mega Site Visit</span>
+              <span> Daily Site Visit</span>
               <span className="mx-4">|</span>
-              <span>📍 Kitengela Town, opposite Kitengela Mall</span>
+              <span>📍Visit our location Opposite Kitengela Mall Betty Business Centre Family Bank Building</span>
               <span className="mx-4">|</span>
-              <span>🕙 10:00 AM</span>
+              <span> 2nd Floor, Room 212 Kitengela-Nairobi, Kenya</span>
               <span className="mx-4">|</span>
-              <span>📅 22nd November 2025</span>
+              <span>🕙 Monday - Friday: 8:00 AM - 6:00 PM</span>
               <span className="mx-4">|</span>
-              <span>Come with a friend — let's build the future together</span>
+              <span>🕙 Saturday: 9:00 AM - 4:00 PM</span>
             </div>
           </div>
 
