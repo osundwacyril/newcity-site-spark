@@ -3,7 +3,7 @@ import { PropertyCard } from "./PropertyCard";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import kca1 from "@/assets/kca-1.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
-import konzaView from "@/assets/konza-view.jpg";
+import konza1 from "@/assets/konza-1.jpg";
 
 const properties = [
   {
@@ -11,7 +11,7 @@ const properties = [
     name: "Konza View Phase 2",
     location: "Konza Town",
     price: "Ksh 500,000",
-    image: konzaView,
+    image: konza1,
     size: "50*100",
     status: "Hot Deal",
   },
