@@ -3,8 +3,8 @@ import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
-import konzaView from "@/assets/konza-view.jpg";
-import eserianPlains from "@/assets/eserian-plains.jpg";
+import konza1 from "@/assets/konza-1.jpg";
+import eserian1 from "@/assets/eserian-1.jpg";
 
 const properties = [
   {
@@ -12,7 +12,7 @@ const properties = [
     name: "Eserian Plains",
     location: "KCA University-Kitengela",
     price: "Ksh 350,000",
-    image: eserianPlains,
+    image: eserian1,
     description: "Affordable plots with ready title deeds near KCA University - Deposit Ksh 35,000",
   },
   {
@@ -20,7 +20,7 @@ const properties = [
     name: "Konza View Phase 2",
     location: "Konza Town",
     price: "Ksh 500,000",
-    image: konzaView,
+    image: konza1,
     description: "Stunning views of Konza Technopolis - Deposit Ksh 150,000, Balance in 3 months",
   },
   {
