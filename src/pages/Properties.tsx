@@ -14,8 +14,8 @@ import fahariGardens from "@/assets/fahari-gardens.jpg";
 import fahariPhase3 from "@/assets/fahari-phase3.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kca1 from "@/assets/kca-1.jpg";
-import konzaView from "@/assets/konza-view.jpg";
-import eserianPlains from "@/assets/eserian-plains.jpg";
+import konza1 from "@/assets/konza-1.jpg";
+import eserian1 from "@/assets/eserian-1.jpg";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
 
 const properties = [
@@ -24,7 +24,7 @@ const properties = [
     name: "Eserian Plains",
     location: "KCA University-Kitengela",
     price: "Ksh 350,000",
-    image: eserianPlains,
+    image: eserian1,
     size: "50*100",
     status: "Available",
     deposit: "Ksh 35,000",
@@ -35,7 +35,7 @@ const properties = [
     name: "Mazola 5 Milimani (Kitengela)",
     location: "1km Off Namanga Highway",
     price: "Ksh 2,500,000",
-    image: eserianPlains,
+    image: eserian1,
     size: "40*90",
     status: "Hot Deal",
     deposit: "10%",
@@ -46,7 +46,7 @@ const properties = [
     name: "Konza View Phase 2",
     location: "Konza Town",
     price: "Ksh 500,000",
-    image: konzaView,
+    image: konza1,
     size: "50*100",
     status: "Hot Deal",
     deposit: "Ksh 150,000",
