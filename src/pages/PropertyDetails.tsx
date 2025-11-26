@@ -18,6 +18,10 @@ import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kcaCommercial from "@/assets/kca-phase2-commercial.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
+import eserian1 from "@/assets/eserian-1.jpg";
+import eserian2 from "@/assets/eserian-2.jpg";
+import eserian3 from "@/assets/eserian-3.jpg";
+import eserian4 from "@/assets/eserian-4.jpg";
 import fahariPhase3_1 from "@/assets/fahari-phase3-1.jpg";
 import fahariPhase3_2 from "@/assets/fahari-phase3-2.jpg";
 import fahariPhase3_3 from "@/assets/fahari-phase3-3.jpg";
@@ -44,7 +48,8 @@ const properties = [
     location: "KCA University-Kitengela",
     price: "Ksh 350,000",
     deposit: "Ksh 35,000",
-    image: eserianPlains,
+    image: eserian1,
+    images: [eserian1, eserian2, eserian3, eserian4],
     size: "50*100",
     status: "Available",
     description: "Prime residential plots near KCA University with ready title deeds",
