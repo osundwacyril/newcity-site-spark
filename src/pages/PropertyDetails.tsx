@@ -14,6 +14,16 @@ import {
 import luckyGardens from "@/assets/lucky-gardens.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
 import konzaView from "@/assets/konza-view.jpg";
+import konza1 from "@/assets/konza-1.jpg";
+import konza2 from "@/assets/konza-2.jpg";
+import konza3 from "@/assets/konza-3.jpg";
+import konza4 from "@/assets/konza-4.jpg";
+import konza5 from "@/assets/konza-5.jpg";
+import konza6 from "@/assets/konza-6.jpg";
+import konza7 from "@/assets/konza-7.jpg";
+import konza8 from "@/assets/konza-8.jpg";
+import konza9 from "@/assets/konza-9.jpg";
+import konza10 from "@/assets/konza-10.jpg";
 import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kcaCommercial from "@/assets/kca-phase2-commercial.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
@@ -87,7 +97,8 @@ const properties = [
     location: "Konza Town",
     price: "Ksh 500,000",
     deposit: "Ksh 150,000",
-    image: konzaView,
+    image: konza1,
+    images: [konza1, konza2, konza3, konza4, konza5, konza6, konza7, konza8, konza9, konza10],
     size: "50*100",
     status: "Hot Deal",
     description: "Affordable residential plots with stunning views of the Konza Technopolis",
