@@ -16,6 +16,7 @@ import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kca1 from "@/assets/kca-1.jpg";
 import konza1 from "@/assets/konza-1.jpg";
 import eserian1 from "@/assets/eserian-1.jpg";
+import mazola1 from "@/assets/mazola-1.jpg";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
 
 const properties = [
@@ -35,7 +36,7 @@ const properties = [
     name: "Mazola 5 Milimani (Kitengela)",
     location: "1km Off Namanga Highway",
     price: "Ksh 2,500,000",
-    image: eserian1,
+    image: mazola1,
     size: "40*90",
     status: "Hot Deal",
     deposit: "10%",

@@ -50,6 +50,13 @@ import fahariPhase2_1 from "@/assets/fahari-phase2-1.jpg";
 import fahariPhase2_2 from "@/assets/fahari-phase2-2.jpg";
 import fahariPhase2_3 from "@/assets/fahari-phase2-3.jpg";
 import fahariPhase2_4 from "@/assets/fahari-phase2-4.jpg";
+import mazola1 from "@/assets/mazola-1.jpg";
+import mazola2 from "@/assets/mazola-2.jpg";
+import mazola3 from "@/assets/mazola-3.jpg";
+import mazola4 from "@/assets/mazola-4.jpg";
+import mazola5 from "@/assets/mazola-5.jpg";
+import mazola6 from "@/assets/mazola-6.jpg";
+import mazola7 from "@/assets/mazola-7.jpg";
 
 const properties = [
   {
@@ -78,7 +85,8 @@ const properties = [
     location: "1km Off Namanga Highway",
     price: "Ksh 2,500,000",
     deposit: "10%",
-    image: eserianPlains,
+    image: mazola1,
+    images: [mazola1, mazola2, mazola3, mazola4, mazola5, mazola6, mazola7],
     size: "40*80",
     status: "Hot Deal",
     description: "Premium residential plots just 1km off Namanga Highway",
