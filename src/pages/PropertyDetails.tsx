@@ -188,7 +188,7 @@ const properties = [
     price: "Ksh 950,000",
     deposit: "Ksh 200,000",
     image: acaciaPhase1,
-    images: [acacia-phase1,acacia-phase2,acacia-phase3,acacia-phase4],
+    images: [acaciaPhase1,acaciaPhase2,acaciaPhase3,acaciaPhase4],
     size: "50*100",
     status: "Available",
     description: "Prime residential plots in Oloika with excellent infrastructure and accessibility",
