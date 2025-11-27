@@ -28,6 +28,10 @@ import kcaPhase2 from "@/assets/kca-phase2.jpg";
 import kcaCommercial from "@/assets/kca-phase2-commercial.jpg";
 import eserianPlains from "@/assets/eserian-plains.jpg";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg";
+import acaciaPhase1 from "@/assets/acacia-phase2.jpg";
+import acaciaPhase1 from "@/assets/acacia-phase3.jpg";
+import acaciaPhase1 from "@/assets/acacia-phase4.jpg";
+
 import eserian1 from "@/assets/eserian-1.jpg";
 import eserian2 from "@/assets/eserian-2.jpg";
 import eserian3 from "@/assets/eserian-3.jpg";
@@ -184,6 +188,7 @@ const properties = [
     price: "Ksh 950,000",
     deposit: "Ksh 200,000",
     image: acaciaPhase1,
+    images: [acacia-phase1,acacia-phase2,acacia-phase3,acacia-phase4],
     size: "50*100",
     status: "Available",
     description: "Prime residential plots in Oloika with excellent infrastructure and accessibility",
