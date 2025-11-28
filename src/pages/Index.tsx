@@ -15,7 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <GrandOpeningBanner />
-      <main className="pt-[190px]">
+      <main className="pt-[220px]">
         <HeroCarousel />
         <div className="container mx-auto px-4 py-8 flex justify-center">
           <Link to="/landing">
