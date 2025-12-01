@@ -12,6 +12,16 @@ import accessRoad from "@/assets/gallery/access-road.jpg";
 import greenLand from "@/assets/gallery/green-land.jpg";
 import houseConstruction from "@/assets/gallery/house-construction.jpg";
 import buildingDevelopment from "@/assets/gallery/building-development.jpg";
+import team1 from  "@/assets/gallery/team1.jpg";
+import team2 from  "@/assets/gallery/team2.jpg";
+import team3 from  "@/assets/gallery/team3.jpg";
+import team4 from  "@/assets/gallery/team4.jpg";
+import team5 from  "@/assets/gallery/team5.jpg";
+import team6 from  "@/assets/gallery/team6.jpg";
+import team7 from  "@/assets/gallery/team7.jpg";
+import team8 from  "@/assets/gallery/team8.jpg";
+import team9 from  "@/assets/gallery/team9.jpg";
+
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -27,6 +37,18 @@ const Gallery = () => {
     { src: greenLand, alt: "Green land with development", category: "Land" },
     { src: houseConstruction, alt: "House under construction", category: "Construction" },
     { src: buildingDevelopment, alt: "Building development project", category: "Construction" },
+    { src: team1, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team2, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team3, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team4, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team5, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team6, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team7, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team8, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team9, alt: "  Newcity Team activity", category: "team activity" },
+
+
+    
   ];
 
   return (
