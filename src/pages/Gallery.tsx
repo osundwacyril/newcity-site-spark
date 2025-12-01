@@ -2,25 +2,25 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useState } from "react";
 import { X } from "lucide-react";
-import constructionSite1 from "@/assets/gallery/construction-site-1.jpg";
-import constructionSite2 from "@/assets/gallery/construction-site-2.jpg";
-import plotMarker from "@/assets/gallery/plot-marker.jpg";
-import propertyFence from "@/assets/gallery/property-fence.jpg";
-import landDevelopment from "@/assets/gallery/land-development.jpg";
-import modernVilla from "@/assets/gallery/modern-villa.jpg";
-import accessRoad from "@/assets/gallery/access-road.jpg";
-import greenLand from "@/assets/gallery/green-land.jpg";
-import houseConstruction from "@/assets/gallery/house-construction.jpg";
-import buildingDevelopment from "@/assets/gallery/building-development.jpg";
-import team1 from  "@/assets/gallery/team1.jpg";
-import team2 from  "@/assets/gallery/team2.jpg";
-import team3 from  "@/assets/gallery/team3.jpg";
-import team4 from  "@/assets/gallery/team4.jpg";
-import team5 from  "@/assets/gallery/team5.jpg";
-import team6 from  "@/assets/gallery/team6.jpg";
-import team7 from  "@/assets/gallery/team7.jpg";
-import team8 from  "@/assets/gallery/team8.jpg";
-import team9 from  "@/assets/gallery/team9.jpg";
+import constructionSite1 from "@/assets/gallery/construction-site-1.jpg?format=webp&w=800&imagetools";
+import constructionSite2 from "@/assets/gallery/construction-site-2.jpg?format=webp&w=800&imagetools";
+import plotMarker from "@/assets/gallery/plot-marker.jpg?format=webp&w=800&imagetools";
+import propertyFence from "@/assets/gallery/property-fence.jpg?format=webp&w=800&imagetools";
+import landDevelopment from "@/assets/gallery/land-development.jpg?format=webp&w=800&imagetools";
+import modernVilla from "@/assets/gallery/modern-villa.jpg?format=webp&w=800&imagetools";
+import accessRoad from "@/assets/gallery/access-road.jpg?format=webp&w=800&imagetools";
+import greenLand from "@/assets/gallery/green-land.jpg?format=webp&w=800&imagetools";
+import houseConstruction from "@/assets/gallery/house-construction.jpg?format=webp&w=800&imagetools";
+import buildingDevelopment from "@/assets/gallery/building-development.jpg?format=webp&w=800&imagetools";
+import team1 from  "@/assets/gallery/team1.jpg?format=webp&w=800&imagetools";
+import team2 from  "@/assets/gallery/team2.jpg?format=webp&w=800&imagetools";
+import team3 from  "@/assets/gallery/team3.jpg?format=webp&w=800&imagetools";
+import team4 from  "@/assets/gallery/team4.jpg?format=webp&w=800&imagetools";
+import team5 from  "@/assets/gallery/team5.jpg?format=webp&w=800&imagetools";
+import team6 from  "@/assets/gallery/team6.jpg?format=webp&w=800&imagetools";
+import team7 from  "@/assets/gallery/team7.jpg?format=webp&w=800&imagetools";
+import team8 from  "@/assets/gallery/team8.jpg?format=webp&w=800&imagetools";
+import team9 from  "@/assets/gallery/team9.jpg?format=webp&w=800&imagetools";
 
 
 const Gallery = () => {
@@ -80,6 +80,7 @@ const Gallery = () => {
                   <img
                     src={image.src}
                     alt={image.alt}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
