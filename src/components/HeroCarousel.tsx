@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1920&imagetools";
-import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1920&imagetools";
-import konza1 from "@/assets/konza-1.jpg?format=webp&w=1920&imagetools";
-import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1920&imagetools";
+import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1200&q=80&imagetools";
+import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1200&q=80&imagetools";
+import konza1 from "@/assets/konza-1.jpg?format=webp&w=1200&q=80&imagetools";
+import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1200&q=80&imagetools";
 
 const properties = [
   {
