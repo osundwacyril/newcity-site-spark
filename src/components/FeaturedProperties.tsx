@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { PropertyCard } from "./PropertyCard";
-import luckyGardens from "@/assets/lucky-gardens.jpg";
-import kca1 from "@/assets/kca-1.jpg";
-import fahariGardens from "@/assets/fahari-gardens.jpg";
-import konza1 from "@/assets/konza-1.jpg";
+import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=800&imagetools";
+import kca1 from "@/assets/kca-1.jpg?format=webp&w=800&imagetools";
+import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=800&imagetools";
+import konza1 from "@/assets/konza-1.jpg?format=webp&w=800&imagetools";
 
 const properties = [
   {
