@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/newcity-logo-main.jpg";
+import logo from "@/assets/newcity-logo-main.jpg?format=webp&w=400&q=90&imagetools";
 
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
