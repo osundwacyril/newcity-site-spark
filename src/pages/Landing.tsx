@@ -2,10 +2,23 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { CheckCircle, MapPin, Users, TrendingUp, Home, Shield, Banknote, Hash, Landmark, MessageSquare, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 import catalogueImage from "@/assets/catalogue.jpg";
-import grandOpeningImage from "@/assets/university-view-grand-opening.jpg";
+import grandOpeningImage from "@/assets/university-view-grand-opening.jpg?format=webp&w=1200&q=80&imagetools";
+import festiveOfferImage from "@/assets/university-view-festive.jpg?format=webp&w=1200&q=80&imagetools";
 
 const Landing = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = [grandOpeningImage, festiveOfferImage];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
       <Navigation />
@@ -39,12 +52,18 @@ const Landing = () => {
                 </div>
               </div>
 
-              <div className="relative">
-                <img 
-                  src={grandOpeningImage}
-                  alt="University View Estate Grand Opening" 
-                  className="w-full h-auto object-cover rounded-xl shadow-2xl"
-                />
+              <div className="relative h-[400px] sm:h-[500px] md:h-[600px] overflow-hidden rounded-xl shadow-2xl">
+                {images.map((image, index) => (
+                  <img 
+                    key={index}
+                    src={image}
+                    alt={index === 0 ? "University View Estate Grand Opening" : "December Festive Offer"}
+                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                      index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+                    }`}
+                    loading={index === 0 ? "eager" : "lazy"}
+                  />
+                ))}
               </div>
             </div>
           </div>
