@@ -9,12 +9,26 @@ import festiveOfferImage from "@/assets/university-view-festive.jpg?format=webp&
 
 const Landing = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [grandOpeningImage, festiveOfferImage];
+  
+  const carouselContent = [
+    {
+      image: grandOpeningImage,
+      badge: "🎉 Grand Opening - Nov 22, 2025",
+      title: "University View Estate - Now Open!",
+      description: "500 Meters to KCA University, Kitengela. Prime plots starting at Kshs 650,000 with flexible payment plans."
+    },
+    {
+      image: festiveOfferImage,
+      badge: "🎄 December Festive Offer",
+      title: "Special Holiday Prices - Limited Time!",
+      description: "Celebrate the season with exclusive festive discounts. Secure your plot at unbeatable prices this December!"
+    }
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prev) => (prev + 1) % images.length);
-    }, 3000);
+      setCurrentImageIndex((prev) => (prev + 1) % carouselContent.length);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -29,14 +43,14 @@ const Landing = () => {
           <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
               <div className="space-y-4 sm:space-y-5 md:space-y-6 text-center md:text-left">
-                <span className="inline-block bg-[hsl(var(--accent-red))] text-accent-red-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider shadow-[var(--shadow-red-glow)] animate-pulse">
-                  🎉 Grand Opening - Nov 22, 2025
+                <span className="inline-block bg-[hsl(var(--accent-red))] text-accent-red-foreground text-[10px] xs:text-xs sm:text-sm font-bold px-2.5 xs:px-3 sm:px-4 py-1 sm:py-1.5 rounded-full uppercase tracking-wider shadow-[var(--shadow-red-glow)] animate-pulse transition-all duration-500">
+                  {carouselContent[currentImageIndex].badge}
                 </span>
-                <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-                  University View Estate - Now Open!
+                <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight transition-all duration-500">
+                  {carouselContent[currentImageIndex].title}
                 </h1>
-                <p className="text-sm xs:text-base sm:text-lg md:text-xl text-primary-foreground/90">
-                  500 Meters to KCA University, Kitengela. Prime plots starting at Kshs 650,000 with flexible payment plans.
+                <p className="text-sm xs:text-base sm:text-lg md:text-xl text-primary-foreground/90 transition-all duration-500">
+                  {carouselContent[currentImageIndex].description}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                   <a href="#catalogue" className="block">
@@ -52,13 +66,13 @@ const Landing = () => {
                 </div>
               </div>
 
-              <div className="relative h-[400px] sm:h-[500px] md:h-[600px] overflow-hidden rounded-xl shadow-2xl">
-                {images.map((image, index) => (
+              <div className="relative h-[450px] sm:h-[550px] md:h-[650px] lg:h-[700px] overflow-hidden rounded-xl shadow-2xl">
+                {carouselContent.map((content, index) => (
                   <img 
                     key={index}
-                    src={image}
-                    alt={index === 0 ? "University View Estate Grand Opening" : "December Festive Offer"}
-                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                    src={content.image}
+                    alt={content.title}
+                    className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-1000 ${
                       index === currentImageIndex ? 'opacity-100' : 'opacity-0'
                     }`}
                     loading={index === 0 ? "eager" : "lazy"}
