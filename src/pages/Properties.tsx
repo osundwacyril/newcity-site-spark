@@ -12,7 +12,7 @@ import luckyGardens from "@/assets/lucky-gardens.jpg";
 import kcaPhase2Commercial from "@/assets/kca-phase2-commercial.jpg";
 import fahariGardens from "@/assets/fahari-gardens.jpg";
 import fahariPhase3 from "@/assets/fahari-phase3.jpg";
-import kcaPhase2 from "@/assets/kcaPhase2.jpg";
+import kcaPhase3 from "@/assets/kcaPhase3.jpg";
 import kca1 from "@/assets/kca-1.jpg";
 import konza1 from "@/assets/konza-1.jpg";
 import eserian1 from "@/assets/eserian-1.jpg";
