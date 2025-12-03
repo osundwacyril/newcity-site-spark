@@ -58,7 +58,7 @@ const properties = [
     name: "5 Acre Blocks For Sale (Kitengela)",
     location: "Opposite Kca University Kitengela",
     price: "Ksh 2,000,000",
-    image: kcaPhase2,
+    image: kcaPhase3,
     size: "5 Acre",
     status: "Premium",
     deposit: "10%",
