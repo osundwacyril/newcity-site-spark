@@ -24,7 +24,6 @@ import konza7 from "@/assets/konza-7.jpg";
 import konza8 from "@/assets/konza-8.jpg";
 import konza9 from "@/assets/konza-9.jpg";
 import konza10 from "@/assets/konza-10.jpg";
-import kcaPhase2 from "@/assets/kcaPhase3.jpg";
 import kcaPhase3 from "@/assets/kcaPhase3.jpg";
 import kcaPhase4 from "@/assets/kcaPhase4.jpg";
 import kcaPhase5 from "@/assets/kcaPhase5.jpg";
@@ -133,8 +132,8 @@ const properties = [
     location: "Opposite Kca University Kitengela",
     price: "Ksh 2,000,000",
     deposit: "10%",
-    image: kcaPhase2,
-    images: [kcaPhase2,kcaPhase3,kcaPhase4,kcaPhase4,kcaPhase5,kcaPhase6],
+    image: kcaPhase3,
+    images: [kcaPhase3,kcaPhase4,kcaPhase4,kcaPhase5,kcaPhase6],
     size: "5 Acre",
     status: "Premium",
     description: "Prime 5-acre blocks opposite KCA University with excellent investment potential",
