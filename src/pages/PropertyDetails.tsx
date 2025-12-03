@@ -24,7 +24,7 @@ import konza7 from "@/assets/konza-7.jpg";
 import konza8 from "@/assets/konza-8.jpg";
 import konza9 from "@/assets/konza-9.jpg";
 import konza10 from "@/assets/konza-10.jpg";
-import kcaPhase2 from "@/assets/kcaPhase2.jpg";
+import kcaPhase2 from "@/assets/kcaPhase3.jpg";
 import kcaPhase3 from "@/assets/kcaPhase3.jpg";
 import kcaPhase4 from "@/assets/kcaPhase4.jpg";
 import kcaPhase5 from "@/assets/kcaPhase5.jpg";
