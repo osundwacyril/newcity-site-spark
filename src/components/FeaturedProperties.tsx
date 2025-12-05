@@ -3,16 +3,16 @@ import { PropertyCard } from "./PropertyCard";
 import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=600&q=85&imagetools";
 import kca1 from "@/assets/kca-1.jpg?format=webp&w=600&q=85&imagetools";
 import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=600&q=85&imagetools";
-import konza1 from "@/assets/konza-1.jpg?format=webp&w=600&q=85&imagetools";
+import kcaPhase3 from "@/assets/kcaPhase3.jpg?format=webp&w=600&q=85&imagetools";
 
 const properties = [
   {
-    id: "3",
-    name: "Konza View Phase 2",
-    location: "Konza Town",
-    price: "Ksh 500,000",
-    image: konza1,
-    size: "50*100",
+    id: "4",
+    name: "5 Acre Blocks For Sale",
+    location: "Opposite Kca University Kitengela",
+    price: "Ksh 2,000,000",
+    image: kcaPhase3,
+    size: "5 Hectares",
     status: "Hot Deal",
   },
   {
