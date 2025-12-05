@@ -11,66 +11,66 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=800&q=85&imagetools";
-import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=800&q=85&imagetools";
-import konzaView from "@/assets/konza-view.jpg?format=webp&w=800&q=85&imagetools";
-import konza1 from "@/assets/konza-1.jpg?format=webp&w=800&q=85&imagetools";
-import konza2 from "@/assets/konza-2.jpg?format=webp&w=800&q=85&imagetools";
-import konza3 from "@/assets/konza-3.jpg?format=webp&w=800&q=85&imagetools";
-import konza4 from "@/assets/konza-4.jpg?format=webp&w=800&q=85&imagetools";
-import konza5 from "@/assets/konza-5.jpg?format=webp&w=800&q=85&imagetools";
-import konza6 from "@/assets/konza-6.jpg?format=webp&w=800&q=85&imagetools";
-import konza7 from "@/assets/konza-7.jpg?format=webp&w=800&q=85&imagetools";
-import konza8 from "@/assets/konza-8.jpg?format=webp&w=800&q=85&imagetools";
-import konza9 from "@/assets/konza-9.jpg?format=webp&w=800&q=85&imagetools";
-import konza10 from "@/assets/konza-10.jpg?format=webp&w=800&q=85&imagetools";
-import kcaPhase3 from "@/assets/kcaPhase3.jpg?format=webp&w=800&q=85&imagetools";
-import kcaPhase4 from "@/assets/kcaPhase4.jpg?format=webp&w=800&q=85&imagetools";
-import kcaPhase5 from "@/assets/kcaPhase5.jpg?format=webp&w=800&q=85&imagetools";
-import kcaPhase6 from "@/assets/kcaPhase6.jpg?format=webp&w=800&q=85&imagetools";
-import kcaCommercial from "@/assets/kca-phase2-commercial.jpg?format=webp&w=800&q=85&imagetools";
-import eserianPlains from "@/assets/eserian-plains.jpg?format=webp&w=800&q=85&imagetools";
-import acaciaPhase1 from "@/assets/acacia-phase1.jpg?format=webp&w=800&q=85&imagetools";
-import acaciaPhase2 from "@/assets/acacia-phase2.jpg?format=webp&w=800&q=85&imagetools";
-import acaciaPhase3 from "@/assets/acacia-phase3.jpg?format=webp&w=800&q=85&imagetools";
-import acaciaPhase4 from "@/assets/acacia-phase4.jpg?format=webp&w=800&q=85&imagetools";
+import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1200&q=95&imagetools";
+import konzaView from "@/assets/konza-view.jpg?format=webp&w=1200&q=95&imagetools";
+import konza1 from "@/assets/konza-1.jpg?format=webp&w=1200&q=95&imagetools";
+import konza2 from "@/assets/konza-2.jpg?format=webp&w=1200&q=95&imagetools";
+import konza3 from "@/assets/konza-3.jpg?format=webp&w=1200&q=95&imagetools";
+import konza4 from "@/assets/konza-4.jpg?format=webp&w=1200&q=95&imagetools";
+import konza5 from "@/assets/konza-5.jpg?format=webp&w=1200&q=95&imagetools";
+import konza6 from "@/assets/konza-6.jpg?format=webp&w=1200&q=95&imagetools";
+import konza7 from "@/assets/konza-7.jpg?format=webp&w=1200&q=95&imagetools";
+import konza8 from "@/assets/konza-8.jpg?format=webp&w=1200&q=95&imagetools";
+import konza9 from "@/assets/konza-9.jpg?format=webp&w=1200&q=95&imagetools";
+import konza10 from "@/assets/konza-10.jpg?format=webp&w=1200&q=95&imagetools";
+import kcaPhase3 from "@/assets/kcaPhase3.jpg?format=webp&w=1200&q=95&imagetools";
+import kcaPhase4 from "@/assets/kcaPhase4.jpg?format=webp&w=1200&q=95&imagetools";
+import kcaPhase5 from "@/assets/kcaPhase5.jpg?format=webp&w=1200&q=95&imagetools";
+import kcaPhase6 from "@/assets/kcaPhase6.jpg?format=webp&w=1200&q=95&imagetools";
+import kcaCommercial from "@/assets/kca-phase2-commercial.jpg?format=webp&w=1200&q=95&imagetools";
+import eserianPlains from "@/assets/eserian-plains.jpg?format=webp&w=1200&q=95&imagetools";
+import acaciaPhase1 from "@/assets/acacia-phase1.jpg?format=webp&w=1200&q=95&imagetools";
+import acaciaPhase2 from "@/assets/acacia-phase2.jpg?format=webp&w=1200&q=95&imagetools";
+import acaciaPhase3 from "@/assets/acacia-phase3.jpg?format=webp&w=1200&q=95&imagetools";
+import acaciaPhase4 from "@/assets/acacia-phase4.jpg?format=webp&w=1200&q=95&imagetools";
 
-import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=800&q=85&imagetools";
-import eserian2 from "@/assets/eserian-2.jpg?format=webp&w=800&q=85&imagetools";
-import eserian3 from "@/assets/eserian-3.jpg?format=webp&w=800&q=85&imagetools";
-import eserian4 from "@/assets/eserian-4.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase3_1 from "@/assets/fahari-phase3-1.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase3_2 from "@/assets/fahari-phase3-2.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase3_3 from "@/assets/fahari-phase3-3.jpg?format=webp&w=800&q=85&imagetools";
-import kca1 from "@/assets/kca-1.jpg?format=webp&w=800&q=85&imagetools";
-import kca2 from "@/assets/kca-2.jpg?format=webp&w=800&q=85&imagetools";
-import kca3 from "@/assets/kca-3.jpg?format=webp&w=800&q=85&imagetools";
-import kca4 from "@/assets/kca-4.jpg?format=webp&w=800&q=85&imagetools";
-import kca5 from "@/assets/kca-5.jpg?format=webp&w=800&q=85&imagetools";
-import kca6 from "@/assets/kca-6.jpg?format=webp&w=800&q=85&imagetools";
-import universityViewEntrance1 from "@/assets/university-view-entrance-1.jpg?format=webp&w=800&q=85&imagetools";
-import universityViewEntrance2 from "@/assets/university-view-entrance-2.jpg?format=webp&w=800&q=85&imagetools";
-import lucky1 from "@/assets/lucky-1.jpg?format=webp&w=800&q=85&imagetools";
-import lucky2 from "@/assets/lucky-2.jpg?format=webp&w=800&q=85&imagetools";
-import lucky3 from "@/assets/lucky-3.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase2_1 from "@/assets/fahari-phase2-1.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase2_2 from "@/assets/fahari-phase2-2.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase2_3 from "@/assets/fahari-phase2-3.jpg?format=webp&w=800&q=85&imagetools";
-import fahariPhase2_4 from "@/assets/fahari-phase2-4.jpg?format=webp&w=800&q=85&imagetools";
-import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=800&q=85&imagetools";
-import mazola2 from "@/assets/mazola-2.jpg?format=webp&w=800&q=85&imagetools";
-import mazola3 from "@/assets/mazola-3.jpg?format=webp&w=800&q=85&imagetools";
-import mazola4 from "@/assets/mazola-4.jpg?format=webp&w=800&q=85&imagetools";
-import mazola5 from "@/assets/mazola-5.jpg?format=webp&w=800&q=85&imagetools";
-import mazola6 from "@/assets/mazola-6.jpg?format=webp&w=800&q=85&imagetools";
-import mazola7 from "@/assets/mazola-7.jpg?format=webp&w=800&q=85&imagetools";
-import university from "@/assets/university.jpg?format=webp&w=800&q=85&imagetools";
-import university2 from "@/assets/university2.jpg?format=webp&w=800&q=85&imagetools";
-import university3 from "@/assets/university3.jpg?format=webp&w=800&q=85&imagetools";
-import university4 from "@/assets/university4.jpg?format=webp&w=800&q=85&imagetools";
-import university5 from "@/assets/university5.jpg?format=webp&w=800&q=85&imagetools";
-import university6 from "@/assets/university6.jpg?format=webp&w=800&q=85&imagetools";
-import university7 from "@/assets/university7.jpg?format=webp&w=800&q=85&imagetools";
+import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1200&q=95&imagetools";
+import eserian2 from "@/assets/eserian-2.jpg?format=webp&w=1200&q=95&imagetools";
+import eserian3 from "@/assets/eserian-3.jpg?format=webp&w=1200&q=95&imagetools";
+import eserian4 from "@/assets/eserian-4.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase3_1 from "@/assets/fahari-phase3-1.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase3_2 from "@/assets/fahari-phase3-2.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase3_3 from "@/assets/fahari-phase3-3.jpg?format=webp&w=1200&q=95&imagetools";
+import kca1 from "@/assets/kca-1.jpg?format=webp&w=1200&q=95&imagetools";
+import kca2 from "@/assets/kca-2.jpg?format=webp&w=1200&q=95&imagetools";
+import kca3 from "@/assets/kca-3.jpg?format=webp&w=1200&q=95&imagetools";
+import kca4 from "@/assets/kca-4.jpg?format=webp&w=1200&q=95&imagetools";
+import kca5 from "@/assets/kca-5.jpg?format=webp&w=1200&q=95&imagetools";
+import kca6 from "@/assets/kca-6.jpg?format=webp&w=1200&q=95&imagetools";
+import universityViewEntrance1 from "@/assets/university-view-entrance-1.jpg?format=webp&w=1200&q=95&imagetools";
+import universityViewEntrance2 from "@/assets/university-view-entrance-2.jpg?format=webp&w=1200&q=95&imagetools";
+import lucky1 from "@/assets/lucky-1.jpg?format=webp&w=1200&q=95&imagetools";
+import lucky2 from "@/assets/lucky-2.jpg?format=webp&w=1200&q=95&imagetools";
+import lucky3 from "@/assets/lucky-3.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase2_1 from "@/assets/fahari-phase2-1.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase2_2 from "@/assets/fahari-phase2-2.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase2_3 from "@/assets/fahari-phase2-3.jpg?format=webp&w=1200&q=95&imagetools";
+import fahariPhase2_4 from "@/assets/fahari-phase2-4.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola2 from "@/assets/mazola-2.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola3 from "@/assets/mazola-3.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola4 from "@/assets/mazola-4.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola5 from "@/assets/mazola-5.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola6 from "@/assets/mazola-6.jpg?format=webp&w=1200&q=95&imagetools";
+import mazola7 from "@/assets/mazola-7.jpg?format=webp&w=1200&q=95&imagetools";
+import university from "@/assets/university.jpg?format=webp&w=1200&q=95&imagetools";
+import university2 from "@/assets/university2.jpg?format=webp&w=1200&q=95&imagetools";
+import university3 from "@/assets/university3.jpg?format=webp&w=1200&q=95&imagetools";
+import university4 from "@/assets/university4.jpg?format=webp&w=1200&q=95&imagetools";
+import university5 from "@/assets/university5.jpg?format=webp&w=1200&q=95&imagetools";
+import university6 from "@/assets/university6.jpg?format=webp&w=1200&q=95&imagetools";
+import university7 from "@/assets/university7.jpg?format=webp&w=1200&q=95&imagetools";
 
 
 
@@ -345,8 +345,8 @@ const PropertyDetails = () => {
                         <img
                           src={img}
                           alt={`${property.name} - Image ${index + 1}`}
-                          width={800}
-                          height={500}
+                          width={1200}
+                          height={750}
                           loading={index === 0 ? "eager" : "lazy"}
                           className="w-full h-full object-cover"
                         />
@@ -366,8 +366,8 @@ const PropertyDetails = () => {
               <img
                 src={property.image}
                 alt={property.name}
-                width={800}
-                height={500}
+                width={1200}
+                height={750}
                 loading="eager"
                 className="w-full h-full object-cover"
               />
