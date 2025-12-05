@@ -82,7 +82,7 @@ const properties = [
   },
   {
     id: "6",
-    name: "5 Acre Blocks Opposite Keda Ceramics",
+    name: "5 Acre Block Opposite Keda Ceramics",
     location: "3km From Umma University Touching Tarmac",
     price: "Ksh 5,500,000",
     image: keda,
@@ -104,7 +104,7 @@ const properties = [
   },
   {
     id: "8",
-    name: "4.6 Acre Blocks For Sale",
+    name: "4.6 Acre Block For Sale",
     location: "Touching Tarmac (Kisaju) Opposite Capital Blocks",
     price: "Ksh 12,000,000",
     image: kisaju,
