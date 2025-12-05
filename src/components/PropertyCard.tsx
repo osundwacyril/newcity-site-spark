@@ -28,6 +28,9 @@ export const PropertyCard = ({
         <img
           src={image}
           alt={name}
+          width={600}
+          height={400}
+          loading="lazy"
           className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
         />
         <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-semibold">
