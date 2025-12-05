@@ -14,7 +14,7 @@ import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=600&q=85&im
 import fahariPhase3 from "@/assets/fahari-phase3.jpg?format=webp&w=600&q=85&imagetools";
 import kcaPhase3 from "@/assets/kcaPhase3.jpg?format=webp&w=600&q=85&imagetools";
 import kca1 from "@/assets/kca-1.jpg?format=webp&w=600&q=85&imagetools";
-import konza4 from "@/assets/konza-1.jpg?format=webp&w=600&q=85&imagetools";
+import konza4 from "@/assets/konza-4.jpg?format=webp&w=600&q=85&imagetools";
 import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=600&q=85&imagetools";
 import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=600&q=85&imagetools";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg?format=webp&w=600&q=85&imagetools";
