@@ -21,6 +21,35 @@ import team6 from  "@/assets/gallery/team6.jpg?format=webp&w=800&imagetools";
 import team7 from  "@/assets/gallery/team7.jpg?format=webp&w=800&imagetools";
 import team8 from  "@/assets/gallery/team8.jpg?format=webp&w=800&imagetools";
 import team9 from  "@/assets/gallery/team9.jpg?format=webp&w=800&imagetools";
+import team10 from  "@/assets/gallery/team10.jpg?format=webp&w=800&imagetools";
+import team11 from  "@/assets/gallery/team11.jpg?format=webp&w=800&imagetools";
+import team12 from  "@/assets/gallery/team12.jpg?format=webp&w=800&imagetools";
+import team13 from  "@/assets/gallery/team13.jpg?format=webp&w=800&imagetools";
+import team14 from  "@/assets/gallery/team14.jpg?format=webp&w=800&imagetools";
+import team15 from  "@/assets/gallery/team15.jpg?format=webp&w=800&imagetools";
+import team16 from  "@/assets/gallery/team16.jpg?format=webp&w=800&imagetools";
+import team17 from  "@/assets/gallery/team17.jpg?format=webp&w=800&imagetools";
+import team18 from  "@/assets/gallery/team18.jpg?format=webp&w=800&imagetools";
+import team19 from  "@/assets/gallery/team19.jpg?format=webp&w=800&imagetools";
+import team20 from  "@/assets/gallery/team20.jpg?format=webp&w=800&imagetools";
+import team21 from  "@/assets/gallery/team21.jpg?format=webp&w=800&imagetools";
+import team22 from  "@/assets/gallery/team22.jpg?format=webp&w=800&imagetools";
+import team23 from  "@/assets/gallery/team23.jpg?format=webp&w=800&imagetools";
+import team24 from  "@/assets/gallery/team24.jpg?format=webp&w=800&imagetools";
+import team25 from  "@/assets/gallery/team25.jpg?format=webp&w=800&imagetools";
+import team26 from  "@/assets/gallery/team26.jpg?format=webp&w=800&imagetools";
+import team27 from  "@/assets/gallery/team27.jpg?format=webp&w=800&imagetools";
+import team28 from  "@/assets/gallery/team28.jpg?format=webp&w=800&imagetools";
+import team29 from  "@/assets/gallery/team29.jpg?format=webp&w=800&imagetools";
+import team30 from  "@/assets/gallery/team30.jpg?format=webp&w=800&imagetools";
+import team31 from  "@/assets/gallery/team31.jpg?format=webp&w=800&imagetools";
+import team32 from  "@/assets/gallery/team32.jpg?format=webp&w=800&imagetools";
+import team33 from  "@/assets/gallery/team33.jpg?format=webp&w=800&imagetools";
+import team34 from  "@/assets/gallery/team34.jpg?format=webp&w=800&imagetools";
+import team35 from  "@/assets/gallery/team35.jpg?format=webp&w=800&imagetools";
+import team36 from  "@/assets/gallery/team36.jpg?format=webp&w=800&imagetools";
+
+
 
 
 const Gallery = () => {
@@ -46,6 +75,35 @@ const Gallery = () => {
     { src: team7, alt: "  Newcity Team activity", category: "team activity" },
     { src: team8, alt: "  Newcity Team activity", category: "team activity" },
     { src: team9, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team10, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team11, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team12, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team13, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team14, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team15, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team16, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team17, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team18, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team19, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team20, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team21, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team22, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team23, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team24, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team25, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team26, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team27, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team28, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team29, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team30, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team31, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team32, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team33, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team34, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team35, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team36, alt: "  Newcity Team activity", category: "team activity" },
+    
+    
 
 
     
