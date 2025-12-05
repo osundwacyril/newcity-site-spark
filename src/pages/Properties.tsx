@@ -19,6 +19,10 @@ import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=600&q=85&imagetools";
 import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=600&q=85&imagetools";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg?format=webp&w=600&q=85&imagetools";
 import university from "@/assets/university.jpg?format=webp&w=800&q=85&imagetools";
+import keda from "@/assets/keda.png?format=webp&w=800&q=85&imagetools";
+import kisaju from "@/assets/kisaju.png?format=webp&w=800&q=85&imagetools";
+
+
 
 const properties = [
   {
@@ -81,7 +85,7 @@ const properties = [
     name: "5 Acre Blocks Opposite Keda Ceramics",
     location: "3km From Umma University Touching Tarmac",
     price: "Ksh 5,500,000",
-    image: kcaPhase2Commercial,
+    image: keda,
     size: "5 Acre",
     status: "Prime Location",
     deposit: "10%",
@@ -103,7 +107,7 @@ const properties = [
     name: "4.6 Acre Blocks For Sale",
     location: "Touching Tarmac (Kisaju) Opposite Capital Blocks",
     price: "Ksh 12,000,000",
-    image: kcaPhase2Commercial,
+    image: kisaju,
     size: "5 Acre",
     status: "Prime Location",
     deposit: "10%",
