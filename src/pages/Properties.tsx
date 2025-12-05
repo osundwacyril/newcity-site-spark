@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { Search, X } from "lucide-react";
-import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=600&q=85&imagetools";
+import luckyGardens from "@/assets/luckybase.jpg?format=webp&w=600&q=85&imagetools";
 import kcaPhase2Commercial from "@/assets/kca-phase2-commercial.jpg?format=webp&w=600&q=85&imagetools";
 import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=600&q=85&imagetools";
 import fahariPhase3 from "@/assets/fahari-phase3.jpg?format=webp&w=600&q=85&imagetools";
