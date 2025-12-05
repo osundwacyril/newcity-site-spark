@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1920&q=90&imagetools";
 import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1920&q=90&imagetools";
-import konza1 from "@/assets/konza-1.jpg?format=webp&w=1920&q=90&imagetools";
+import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=1920&q=90&imagetools";
 import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1920&q=90&imagetools";
 
 const properties = [
@@ -17,11 +17,13 @@ const properties = [
   },
   {
     id: 2,
-    name: "Konza View Phase 2",
-    location: "Konza Town",
-    price: "Ksh 500,000",
-    image: konza1,
-    description: "Stunning views of Konza Technopolis - Deposit Ksh 150,000, Balance in 3 months",
+    name: "Mazola 5 Milimani",
+    location: "Milimani Kitengela",
+    price: "Ksh 2,500,000",
+    image: mazola1,
+    description: "Premium residential plots just 1km off Namanga Highway
+
+",
   },
   {
     id: 3,
