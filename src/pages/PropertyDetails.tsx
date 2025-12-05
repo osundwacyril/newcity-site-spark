@@ -71,6 +71,10 @@ import university4 from "@/assets/university4.jpg?format=webp&w=1200&q=95&imaget
 import university5 from "@/assets/university5.jpg?format=webp&w=1200&q=95&imagetools";
 import university6 from "@/assets/university6.jpg?format=webp&w=1200&q=95&imagetools";
 import university7 from "@/assets/university7.jpg?format=webp&w=1200&q=95&imagetools";
+import kisaju from "@/assets/kisaju.png?format=webp&w=1200&q=95&imagetools";
+import keda from "@/assets/keda.png?format=webp&w=1200&q=95&imagetools";
+
+
 
 
 
@@ -177,11 +181,11 @@ const properties = [
   },
   {
     id: "6",
-    name: "5 Acre Blocks Opposite Keda Ceramics",
+    name: "5 Acre Block Opposite Keda Ceramics",
     location: "3km From Umma University Touching Tarmac",
     price: "Ksh 5,500,000",
     deposit: "10%",
-    image: kcaCommercial,
+    image: keda,
     size: "5 Acre",
     status: "Prime Location",
     description: "Exclusive 5-acre blocks touching tarmac, 3km from Umma University",
@@ -216,11 +220,11 @@ const properties = [
   },
   {
     id: "8",
-    name: "4.6 Acre Blocks For Sale",
+    name: "4.6 Acre Block For Sale",
     location: "Touching Tarmac (Kisaju) Opposite Capital Blocks",
     price: "Ksh 12,000,000",
     deposit: "10%",
-    image: kcaCommercial,
+    image: kisaju,
     size: "5 Acre",
     status: "Prime Location",
     description: "Premium 4.6-acre blocks in Kisaju, touching tarmac opposite Capital Blocks",
