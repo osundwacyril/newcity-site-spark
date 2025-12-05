@@ -123,7 +123,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground text-sm">
-          <p>© {currentYear} NewCity Real Estate. All rights reserved.</p>
+          <p>© {currentYear} NewCity Real Estate. Powered by <a href="https://nexorasolutions.co.ke" className="text-muted-foreground hover:text-primary transition-colors"> Nexora Solutions </a>.</p>
         </div>
       </div>
     </footer>
