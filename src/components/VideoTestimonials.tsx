@@ -13,6 +13,13 @@ const videoTestimonials = [
     clientName: "Ndiritu Mathenge",
     location: "CEO, NewCity Real Estate",
   },
+
+  {
+    id: "OcL9afaslYw",
+    title: "KCA University View Estate",
+    clientName: "New University View Estate Project",
+    location: "KCA University Kitengela",
+  },
 ];
 
 export const VideoTestimonials = () => {
