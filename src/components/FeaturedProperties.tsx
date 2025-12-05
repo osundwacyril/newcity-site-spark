@@ -12,7 +12,7 @@ const properties = [
     location: "Opposite Kca University Kitengela",
     price: "Ksh 2,000,000",
     image: kcaPhase3,
-    size: "5 Hectares",
+    size: "5 Acres",
     status: "Hot Deal",
   },
   {
