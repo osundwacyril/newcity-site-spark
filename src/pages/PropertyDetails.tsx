@@ -11,7 +11,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1200&q=95&imagetools";
+import luckyGardens from "@/assets/luckybase.jpg?format=webp&w=1200&q=95&imagetools";
 import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1200&q=95&imagetools";
 import konzaView from "@/assets/konza-view.jpg?format=webp&w=1200&q=95&imagetools";
 import konza1 from "@/assets/konza-1.jpg?format=webp&w=1200&q=95&imagetools";
