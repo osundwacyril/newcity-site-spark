@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1920&q=90&imagetools";
-import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1920&q=90&imagetools";
+import universityview from "@/assets/university.jpg?format=webp&w=1920&q=90&imagetools";
 import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=1920&q=90&imagetools";
 import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1920&q=90&imagetools";
 
@@ -24,11 +24,11 @@ const properties = [
     description: "Premium residential plots just 1km off Namanga Highway",
   },
   {
-    id: 3,
-    name: "Fahari Gardens Phase 2",
-    location: "Kampala University Kitengela",
-    price: "Ksh 1,100,000",
-    image: fahariGardens,
+    id: 5,
+    name: "University View Estate",
+    location: "500 Meters to KCA University Kitengela",
+    price: "Ksh 650,000",
+    image: universityview,
     description: "Prime plots near Kampala University - Deposit Ksh 300,000, Balance in 12 months",
   },
 ];
