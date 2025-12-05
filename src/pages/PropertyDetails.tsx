@@ -64,6 +64,15 @@ import mazola4 from "@/assets/mazola-4.jpg?format=webp&w=800&q=85&imagetools";
 import mazola5 from "@/assets/mazola-5.jpg?format=webp&w=800&q=85&imagetools";
 import mazola6 from "@/assets/mazola-6.jpg?format=webp&w=800&q=85&imagetools";
 import mazola7 from "@/assets/mazola-7.jpg?format=webp&w=800&q=85&imagetools";
+import university from "@/assets/university.jpg?format=webp&w=800&q=85&imagetools";
+import university2 from "@/assets/university2.jpg?format=webp&w=800&q=85&imagetools";
+import university3 from "@/assets/university3.jpg?format=webp&w=800&q=85&imagetools";
+import university4 from "@/assets/university4.jpg?format=webp&w=800&q=85&imagetools";
+import university5 from "@/assets/university5.jpg?format=webp&w=800&q=85&imagetools";
+import university6 from "@/assets/university6.jpg?format=webp&w=800&q=85&imagetools";
+import university7 from "@/assets/university7.jpg?format=webp&w=800&q=85&imagetools";
+
+
 
 const properties = [
   {
@@ -152,8 +161,8 @@ const properties = [
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
     deposit: "Ksh 65,000",
-    image: universityViewEntrance1,
-    images: [universityViewEntrance1, universityViewEntrance2, kca1, kca2, kca3, kca4, kca5, kca6],
+    image: university,
+    images: [university, university2, university3, university4, university5 ,university6, university7 ],
     size: "50*100",
     status: "Available",
     description: "Prime commercial plots near KCA University offering excellent investment potential",
