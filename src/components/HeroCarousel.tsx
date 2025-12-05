@@ -21,9 +21,7 @@ const properties = [
     location: "Milimani Kitengela",
     price: "Ksh 2,500,000",
     image: mazola1,
-    description: "Premium residential plots just 1km off Namanga Highway
-
-",
+    description: "Premium residential plots just 1km off Namanga Highway",
   },
   {
     id: 3,
