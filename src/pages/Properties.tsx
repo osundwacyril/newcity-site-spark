@@ -18,6 +18,7 @@ import konza1 from "@/assets/konza-1.jpg?format=webp&w=600&q=85&imagetools";
 import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=600&q=85&imagetools";
 import mazola1 from "@/assets/mazola-1.jpg?format=webp&w=600&q=85&imagetools";
 import acaciaPhase1 from "@/assets/acacia-phase1.jpg?format=webp&w=600&q=85&imagetools";
+import university from "@/assets/university.jpg?format=webp&w=800&q=85&imagetools";
 
 const properties = [
   {
@@ -69,7 +70,7 @@ const properties = [
     name: "University View Estate",
     location: "500 Meters to KCA University Kitengela",
     price: "Ksh 650,000",
-    image: kca1,
+    image: university,
     size: "50*100",
     status: "Available",
     deposit: "Ksh 65,000",
