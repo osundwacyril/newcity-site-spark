@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1200&q=80&imagetools";
-import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1200&q=80&imagetools";
-import konza1 from "@/assets/konza-1.jpg?format=webp&w=1200&q=80&imagetools";
-import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1200&q=80&imagetools";
+import luckyGardens from "@/assets/lucky-gardens.jpg?format=webp&w=1920&q=90&imagetools";
+import fahariGardens from "@/assets/fahari-gardens.jpg?format=webp&w=1920&q=90&imagetools";
+import konza1 from "@/assets/konza-1.jpg?format=webp&w=1920&q=90&imagetools";
+import eserian1 from "@/assets/eserian-1.jpg?format=webp&w=1920&q=90&imagetools";
 
 const properties = [
   {
@@ -67,6 +67,8 @@ export const HeroCarousel = () => {
             <img
               src={property.image}
               alt={property.name}
+              width={1920}
+              height={1080}
               loading={index === 0 ? "eager" : "lazy"}
               className="w-full h-full object-cover"
             />
