@@ -7,21 +7,10 @@ import catalogueImage from "@/assets/catalogue.jpg";
 import grandOpeningImage from "@/assets/university-view-grand-opening.jpg?format=webp&w=1200&q=80&imagetools";
 import festiveOfferImage from "@/assets/university-view-festive.jpg?format=webp&w=1200&q=80&imagetools";
 
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17700206022"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-17700206022');
-</script>
-
-</head>
 const Landing = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+
   const carouselContent = [
     {
       image: grandOpeningImage,
@@ -37,14 +26,46 @@ const Landing = () => {
     }
   ];
 
+  // =========================================================
+  // 1. CAROUSEL LOGIC (Runs once on mount to start the timer)
+  // =========================================================
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % carouselContent.length);
     }, 5000);
 
+    // Cleanup function to clear the interval when the component unmounts
     return () => clearInterval(interval);
-  }, []);
+  }, []); // Empty dependency array: runs only once
 
+  // =========================================================
+  // 2. GOOGLE TAG MANAGER (GTAG) LOGIC (Runs once on mount to inject the script)
+  // =========================================================
+  useEffect(() => {
+    // Check if the script has already been added to prevent duplicates
+    if (!document.getElementById("gtag-script-aw")) {
+      
+      // 1. Create the script tag
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=AW-17700206022";
+      script.id = "gtag-script-aw";
+      
+      // 2. Insert the script into the document head
+      document.head.appendChild(script);
+
+      // 3. Define the global gtag function and run the config
+      // Note: This must be done globally on the window object
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'AW-17700206022');
+    }
+  }, []); // Empty dependency array: runs only once
+
+  // =========================================================
+  // RENDER
+  // =========================================================
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
       <Navigation />
