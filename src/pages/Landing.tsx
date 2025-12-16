@@ -7,6 +7,18 @@ import catalogueImage from "@/assets/catalogue.jpg";
 import grandOpeningImage from "@/assets/university-view-grand-opening.jpg?format=webp&w=1200&q=80&imagetools";
 import festiveOfferImage from "@/assets/university-view-festive.jpg?format=webp&w=1200&q=80&imagetools";
 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17700206022"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17700206022');
+</script>
+
+</head>
 const Landing = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
