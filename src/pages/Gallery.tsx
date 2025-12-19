@@ -45,6 +45,9 @@ import team39 from  "@/assets/gallery/team39.jpg?format=webp&w=800&imagetools";
 import team40 from  "@/assets/gallery/team40.jpg?format=webp&w=800&imagetools";
 import team41 from  "@/assets/gallery/team41.jpg?format=webp&w=800&imagetools";
 import team42 from  "@/assets/gallery/team42.jpg?format=webp&w=800&imagetools";
+import team43 from  "@/assets/gallery/tezzy.jpg?format=webp&w=800&imagetools";
+import team44 from  "@/assets/gallery/tezzy1.jpg?format=webp&w=800&imagetools";
+
 
 
 
@@ -97,6 +100,8 @@ const Gallery = () => {
     { src: team40, alt: "  Newcity Team activity", category: "team activity" },
     { src: team41, alt: "  Newcity Team activity", category: "team activity" },
     { src: team42, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team43, alt: "  Newcity Team activity", category: "team activity" },
+    { src: team44, alt: "  Newcity Team activity", category: "team activity" },
 
     
     
